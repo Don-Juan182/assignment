@@ -1,0 +1,22 @@
+header {
+    background-color: #266500;
+    color: #000000;
+    
+    }
+    
+    body,
+    .product description {
+        background-color: #000000;
+        color: #fff;
+    }
+    h2 {
+        background-color: #F3E036;
+        color: #FD0E0E;
+    }
+    h3,
+    h4 {
+        color: #fff;
+    }
+    .bottom {
+        background-color: #266500;
+    }

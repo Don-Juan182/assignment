@@ -1,3 +1,21 @@
+@font-face {
+    font-family: "Iceland";
+    src: url("../Fonts/Iceland-Regular.ttf"); format("truetype")
+}
+
+body,
+header,
+.product,
+.bottom,
+h1,
+h2,
+h3,
+h4,
+p {
+    font-family: "Iceland";
+}
+
+
 header {
     background-color: #266500;
     color: #000000;
@@ -19,4 +37,9 @@ header {
     }
     .bottom {
         background-color: #266500;
+    }
+
+    .checkout page h2 {
+        background-color: #62FF02;
+
     }

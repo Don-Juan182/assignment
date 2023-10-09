@@ -19,14 +19,17 @@ p {
 header {
     background-color: #266500;
     color: #000000;
-    
     }
-    
+.main-section h2{
+        background-color: #F3E036;
+        color: #FD0E0E;
+}
     body,
-    .product description {
+    .product-description {
         background-color: #000000;
         color: #fff;
     }
+    .product-description h1,
     h2 {
         background-color: #F3E036;
         color: #FD0E0E;
@@ -38,8 +41,80 @@ header {
     .bottom {
         background-color: #266500;
     }
-
-    .checkout page h2 {
+    .checkout-page h1, h2 {
         background-color: #62FF02;
+        color: #fff;
+    }
+    .checkout-page h3{
+        background-color: #F3E036;
+        color: #FD0E0E;
+    }
+
+    .details {
+        background-color: #62FF02;
+        color: #fff;
+    }
+    .details h1{
+        background-color: #F3E036;
+        color: #FD0E0E;
+    }
+    .more-games h2{
+        background-color: #F3E036;
+        color: #FD0E0E;
+    }
+    .gameplay,
+    h2 {
+        background-color: #000000;
 
     }
+
+    footer {
+        background-color: #618F45;
+        color: #000000;
+        text-align: center;
+    }
+
+    .buy-button {
+        align-items: center;
+        appearance: none;
+        background-color: #F3E036;
+        border-radius: 4px;
+        border-width: 0;
+        box-shadow: rgba(45, 35, 66, 0.2) 0 2px 4px,rgba(45, 35, 66, 0.15) 0 7px 13px -3px,#F79E1B 0 -3px 0 inset;
+        box-sizing: border-box;
+        color: #FD0E0E;
+        cursor: pointer;
+        display: inline-flex;
+        font-family: "Iceberg",monospace;
+        height: 48px;
+        justify-content: center;
+        line-height: 1;
+        list-style: none;
+        overflow: hidden;
+        padding-left: 16px;
+        padding-right: 16px;
+        position: relative;
+        text-align: left;
+        text-decoration: none;
+        transition: box-shadow .15s,transform .15s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        white-space: nowrap;
+        will-change: box-shadow,transform;
+        font-size: 18px;
+       }
+       
+       .buy-button:focus {
+        box-shadow: #F79E1B 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #F79E1B 0 -3px 0 inset;
+       }
+       
+       .buy-button:hover {
+        box-shadow: rgba(45, 35, 66, 0.3) 0 4px 8px, rgba(45, 35, 66, 0.2) 0 7px 13px -3px, #F79E1B 0 -3px 0 inset;
+        transform: translateY(-2px);
+       }
+       
+       .buy-button:active {
+        box-shadow: #D6D6E7 0 3px 7px inset;
+        transform: translateY(2px);
+       }

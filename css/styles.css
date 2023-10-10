@@ -57,14 +57,11 @@ header {
         color: #FD0E0E;
     }
 
-    .details {
+    .details,
+    h2 {
         background-color: #62FF02;
         background-color: hsl(120, 100%, 15%);
         color: #fff;
-    }
-    .details h1{
-        background-color: #F3E036;
-        color: #FD0E0E;
     }
     .more-games h2{
         background-color: #F3E036;

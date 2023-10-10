@@ -74,6 +74,10 @@ header {
         text-align: center;
     }
 
+
+    /*buttons*/
+
+
     .buy-button {
         align-items: center;
         appearance: none;
@@ -239,3 +243,31 @@ header {
         top: 7px;
         right: 15px;
       }
+
+
+/*Images*/
+
+
+      .logo__image {
+        width: 350px;
+      }
+      .hot_summer_deals__image {
+        max-width: 800px;
+        border-radius: 5%;
+        width: 800px;
+        background-position-x: right;
+        background-position-y: bottom;
+      }
+
+      .black_game__image,
+      .warpath_game__image,
+      .football_game__image,
+      .pingpong_game__image,
+      .rtr_game__image,
+      .racing_game__image,
+      .boxer_game__image {
+        width: 250px;
+      }
+.gameplay img {
+    width: 350px;
+}

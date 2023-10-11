@@ -23,20 +23,27 @@ header {
 .main-section h2{
         background-color: #F3E036;
         color: #FD0E0E;
+        text-align: center;
 }
     body,
     .product-description {
         background-color: #000000;
         color: #fff;
+        
     }
     .product-description h1,
     h2 {
         background-color: #F3E036;
         color: #FD0E0E;
+        width: 70px;
+    }
+    .product-description img {
+        margin: 40px 20px 10px 80px;
     }
     h3,
     h4 {
         color: #fff;
+        margin-left: 80px;
     }
     .bottom {
         background-color: #266500;
@@ -55,6 +62,8 @@ header {
     .checkout-page h3{
         background-color: #F3E036;
         color: #FD0E0E;
+        width: 70px;
+        text-align: center;
     }
 
     .details,
@@ -70,7 +79,13 @@ header {
     .gameplay,
     h2 {
         background-color: #000000;
+    }
+.gameplay img, h3 {
+    display: inline-block;
 
+}
+    a {
+        text-decoration: none;
     }
 
     footer {
@@ -248,7 +263,6 @@ header {
         top: 7px;
         right: 15px;
       }
-
 
 /*Images*/
 

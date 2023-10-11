@@ -11,14 +11,19 @@ h1,
 h2,
 h3,
 h4,
-p {
+p,
+.buy-button {
     font-family: "Iceland";
 }
 
+.welcome {
+    margin-top: 10em;
+}
 
 header {
     background-color: #618F45;
     color: #000000;
+    margin-bottom: 15em;
     }
 .main-section h2,
 .more-games h2{
@@ -48,9 +53,6 @@ header {
     }
     .bottom {
         background-color: #618F45;
-    }
-    .bottom nav {
-;
     }
     .checkout-page h1, h2 {
         background-color: #62FF02;
@@ -118,7 +120,7 @@ header {
         color: #FD0E0E;
         cursor: pointer;
         display: inline-flex;
-        font-family: "Iceberg",monospace;
+        font-family: "Iceberg";
         height: 34px;
         justify-content: center;
         line-height: 1;
@@ -279,12 +281,14 @@ header {
       .logo__image {
         width: 350px;
       }
+
       .hot_summer_deals__image {
-        max-width: 800px;
-        border-radius: 5%;
-        width: 800px;
-        background-position-x: right;
-        background-position-y: bottom;
+        max-width: 600px;
+        border-radius: 50%;
+        width: 300px;
+        height: 400px;
+        padding-top: 50rem;
+        margin: 10em;
       }
 
       .black_game__image,

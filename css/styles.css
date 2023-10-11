@@ -38,9 +38,11 @@ header {
         background-color: #F3E036;
         color: #FD0E0E;
         width: 70px;
+        text-align: center;
     }
-    .product-description img {
-        margin: 40px 20px 10px 80px;
+    .product-description {
+      margin-left: 5em;
+
     }
     h3,
     h4 {
@@ -281,6 +283,7 @@ padding: 2rem;
 
       .logo__image {
         width: 350px;
+        text-align: center;
       }
 
       .hot_summer_deals__image {

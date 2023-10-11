@@ -93,7 +93,9 @@ header {
     }
 .bottom nav {
 display: flex;
--ms-flex-direction: column;
+flex-direction: column;
+padding: 2rem;
+
 
 }
     footer {

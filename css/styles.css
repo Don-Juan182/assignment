@@ -82,6 +82,9 @@ header {
         text-align: center;
     }
 
+      .checkout-page {
+        margin-left: 5em;
+      }
     .details {
         background-color: #62FF02;
         background-color: hsl(120, 100%, 7%);
@@ -89,6 +92,7 @@ header {
         color: #fff;
         padding: 2%;
         margin-bottom: 50px;
+        margin-left: 5em;
     }
     .more-games h2{
         background-color: #F3E036;

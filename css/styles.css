@@ -17,7 +17,7 @@ p {
 
 
 header {
-    background-color: #266500;
+    background-color: #618F45;
     color: #000000;
     }
 .main-section h2,
@@ -44,10 +44,13 @@ header {
     h3,
     h4 {
         color: #fff;
-        margin-left: 80px;
+        margin-left: 5px;
     }
     .bottom {
-        background-color: #266500;
+        background-color: #618F45;
+    }
+    .bottom nav {
+;
     }
     .checkout-page h1, h2 {
         background-color: #62FF02;
@@ -72,8 +75,9 @@ header {
         background-color: hsl(120, 100%, 7%);
         width: 400px;
         color: #fff;
+        padding: 2%;
+        margin-bottom: 50px;
     }
-
     .more-games h2{
         background-color: #F3E036;
         color: #FD0E0E;
@@ -88,12 +92,15 @@ header {
 }
     a {
         text-decoration: none;
+        margin: 4%;
     }
 
     footer {
         background-color: #618F45;
         color: #000000;
         text-align: center;
+        margin-top: 0.50px;
+        height: 50px;
     }
 
 

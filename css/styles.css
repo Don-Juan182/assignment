@@ -22,10 +22,22 @@ header {
     margin-bottom: 5em;
     }
 .main-section h2,
-.more-games h2{
+.more-games h2 {
         background-color: #F3E036;
         color: #FD0E0E;
         text-align: center;
+}
+    .more-games h1,
+    h2,
+    p {
+        margin-left: 5em;
+    }
+    .main-section h2,
+    p {
+        margin-left: 5em;
+        text-align: left;
+
+
 }
     body,
     .product-description {
@@ -283,7 +295,6 @@ padding: 2rem;
 
       .logo__image {
         width: 350px;
-        text-align: center;
       }
 
       .hot_summer_deals__image {

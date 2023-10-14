@@ -16,29 +16,39 @@ p,
     font-family: "Iceland";
 }
 
+/*Header*/
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
 header {
     background-color: #618F45;
     color: #000000;
-    margin-bottom: 5em;
-    }
+}
+
+/*Main section*/
+
+.info-one,
+.info-two,
+.hot_summer_deals__image_welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 3em;
+  text-align: center;
+}
+
 .main-section h2,
 .more-games h2 {
         background-color: #F3E036;
         color: #FD0E0E;
         text-align: center;
 }
-    .more-games h1,
-    h2,
-    p {
-        margin-left: 5em;
-    }
-    .main-section h2,
-    p {
-        margin-left: 5em;
-        text-align: left;
 
-
-}
     body,
     .product-description {
         background-color: #000000;
@@ -52,18 +62,46 @@ header {
         width: 70px;
         text-align: center;
     }
-    .product-description {
-      margin-left: 5em;
-
-    }
     h3,
     h4 {
         color: #fff;
         margin-left: 5px;
     }
+    .main-section {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin: 40px;
+      grid-gap: 45px
+   }
+
+   .main-section p, h2 {
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 3em;
+      margin-inline-end: 1em;
+      font-size: 1.2em;
+   }
+   .old-price {
+    text-decoration: line-through;
+   }
+
+   /*Bottom*/
+
     .bottom {
         background-color: #618F45;
     }
+
+    .bottom-info {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin: 5px;
+      grid-gap: 5px
+    }
+
+
+
+/*Checkout Page*/
+
     .checkout-page h1, h2 {
         background-color: #62FF02;
         background-color: hsl(120, 100%, 7%);
@@ -177,12 +215,12 @@ padding: 2rem;
        
 
        .search {
-        --input-line: #cccccc;
-        --input-text-color: #808080;
+        --input-line: #FD0E0E;
+        --input-text-color: #FD0E0E;
         --input-text-hover-color: transparent;
-        --input-border-color: #808080;
-        --input-border-hover-color: #999999;
-        --input-bg-color: #333333;
+        --input-border-color: #FD0E0E;
+        --input-border-hover-color: #FD0E0E;
+        --input-bg-color: #F3E036;
         --search-max-width: 250px;
         --search-min-width: 150px;
         --border-radius: 5px;
@@ -252,6 +290,9 @@ padding: 2rem;
       }
       
       /*Search button*/
+
+
+
       .search-box-icon {
         width: 52px;
         height: 35px;
@@ -306,7 +347,6 @@ padding: 2rem;
         border-radius: 5%;
         width: 600px;
         height: 400px;
-        margin-left: 5em;
       }
 
       .black_game__image,

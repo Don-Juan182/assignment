@@ -112,6 +112,13 @@ header {
     .buy-button {
       margin-bottom: 20px;
     }
+
+    .instagram_icon,
+    .steam_icon,
+    .youtube_icon {
+      flex: 1;
+      padding: 5px;
+    }
     
 
 /*Checkout Page*/

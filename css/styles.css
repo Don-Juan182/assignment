@@ -90,14 +90,29 @@ header {
     .bottom {
         background-color: #618F45;
     }
-
-    .bottom-info {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
+    .bottom_titles {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      font-size: 1.5em;
+      margin-left: 50px;
     }
 
+    .bottom_info {
+      display: flex;
+      justify-content: space-between;
+    }
 
+    .bottom_info_left,
+    .bottom_info_center,
+    .bottom_info_right {
+      flex: 1;
+      padding: 30px;
+    }
+  
+    .buy-button {
+      margin-bottom: 20px;
+    }
+    
 
 /*Checkout Page*/
 
@@ -145,14 +160,8 @@ header {
     a {
         text-decoration: none;
         margin: 4%;
-    }
-.bottom nav {
-display: flex;
-flex-direction: column;
-padding: 2rem;
-
-
 }
+
     footer {
         background-color: #618F45;
         color: #000000;
@@ -334,6 +343,23 @@ padding: 2rem;
         right: 15px;
       }
 
+
+      /*Icons*/
+      
+      .instagram {
+        width: 35px;
+        height: 35px;
+      }
+
+      .steam {
+        width: 35px;
+        height: 35px;
+      }
+
+      .youtube {
+        width: 35px;
+        height: 35px;
+      }
 /*Images*/
 
 

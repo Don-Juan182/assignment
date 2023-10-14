@@ -92,10 +92,9 @@ header {
     }
 
     .bottom-info {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      margin: 5px;
-      grid-gap: 5px
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
     }
 
 

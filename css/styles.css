@@ -40,6 +40,7 @@ header {
   align-items: center;
   font-size: 3em;
   text-align: center;
+  margin-top: 15px;
 }
 
 .main-section h2,
@@ -106,18 +107,22 @@ header {
     .bottom_info_center,
     .bottom_info_right {
       flex: 1;
-      padding: 30px;
+      padding: 70px;
     }
   
     .buy-button {
       margin-bottom: 20px;
     }
-
+    .bottom_icons {
+      display: flex;
+      justify-content: space-between;
+    }
     .instagram_icon,
     .steam_icon,
     .youtube_icon {
       flex: 1;
-      padding: 5px;
+      padding: 10px;
+      margin-top: 150px;
     }
     
 

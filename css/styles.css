@@ -159,7 +159,7 @@ header {
       flex-wrap: wrap;
       gap: 20px;
       margin-top: 50px;
-      margin-left: 50 px;
+      margin-left: 150 px;
     }
     
     .product-description_info {
@@ -180,7 +180,7 @@ header {
 
     .gameplay {
       text-align: center;
-      
+
     }
     
     .title {

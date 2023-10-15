@@ -400,8 +400,16 @@ header {
   font-size: 2.5em;
 }
 
+.checkout-page_column_left img {
+  margin-left: 150px;
+}
+
 /*Contact us page*/ 
 
+.about-us_top nav il {
+  align-items: center;
+  margin-left: 50px;
+}
 
 .about-us_info {
   width: 60%; 
@@ -426,6 +434,41 @@ header {
   margin-top: 20px;
 }
 
+select,
+textarea {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    margin: 10px 10px 10px 0px;
+    padding: 10px;
+  }
+  
+  textarea {
+    height: 65%;
+    min-height: 100px;
+  }
+  
+  .contact_form {
+    max-width: 650px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .form-wrapper {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+  }
+  
+  .form-wrapper > * {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact_form h2 {
+    text-align: center;
+    font-size: 2.5em;
+  }
 
     /*buttons*/
 

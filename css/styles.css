@@ -250,21 +250,28 @@ header {
         text-align: center;
         border-radius: 60%;
     }
-    .checkout-page_left h3{
+    .details_right_title h3{
         background-color: #F3E036;
         color: #FD0E0E;
         width: 70px;
         text-align: center;
+        font-size: 2em;
+    }
+    .details_right_title p {
+      font-size: 3em;
     }
 
+    .shopping_cart {
+      background-color: hsl(120, 100%, 7%);
+    }
     .details_right {
         background-color: #62FF02;
         background-color: hsl(120, 100%, 7%);
         width: 400px;
         color: #fff;
-        padding: 2%;
-        margin-bottom: 50px;
-        margin-left: 5em;
+        padding: 10px;
+        font-size: 1.5em;
+        border-radius: 5%;
     }
     .more-games h2{
         background-color: #F3E036;
@@ -293,20 +300,46 @@ header {
     .checkout-page_top_numbers {
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: space-evenly;
       align-items: center;
-      margin: 30px 0px 10px 50px;
-      gap: 30px;
+      margin: 25px 0px 0px 0px;
+      gap: 150px;
     }
     .checkout-page_top_phase {
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: left;
+      gap: 90px;
       align-items: center;
-      margin: 30px 0px 10px 50px;
-      gap: 30px;
+      margin: 0px 0px 10px 40px;
+      font-size: 2em;
     }
 
+.checkout-page_main {
+  display: flex;
+  justify-content: space-evenly;
+}
+.checkout-page_left, .details_right_title, .details_right {
+  margin: 15px; 
+}
+.details_right_title {
+  display: flex;
+  align-items: center;  /* to vertically align the items in the center */
+  justify-content: space-between; /* to push them apart */
+}
+
+
+.details_right_title, 
+.details_right {
+  display: block;
+}
+.details_right_title h3, .details_right h3, .details_right h4, .details_right p {
+  margin-top: 0;
+}
+
+.details_right {
+  margin-bottom: 50px;
+}
     /*buttons*/
 
 

@@ -687,12 +687,30 @@ textarea {
 
 
 
-/* Media query for a screen width below 600px (from 481px to 581px)*/
+/* Media Queries for screens up to 481px */
+@media (max-width: 481px) {
+  .logo {
+    width: 150px; /* Reduced size */
+    height: 45px; /* Adjusted proportionately */
+  }
 
-@media screen and (max-width: 481px) {
   header {
-      flex-direction: column;
-      align-items: center;
-      padding: 20px;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items */
+  }
+
+  .search, .more-games {
+    width: 120px; /* Reduced width for smaller screens */
+    height: 35px; /* Adjusted height */
+    margin: 5px 0; /* Simplified margin */
+  }
+
+  .games {
+    grid-template-columns: repeat(2, 1fr); /* 2 games per row on small screens */
+  }
+
+  .game {
+    width: 150px; /* Increased width slightly for 2 games per row layout */
+    height: 150px; /* Adjusted proportionately */
   }
 }

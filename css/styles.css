@@ -686,31 +686,40 @@ textarea {
 }
 
 
-
 /* Media Queries for screens up to 481px */
 @media (max-width: 481px) {
   .logo {
-    width: 150px; /* Reduced size */
-    height: 45px; /* Adjusted proportionately */
+    width: 150px;
+    height: 45px;
+    order: 2; /* Places logo in the middle */
   }
 
   header {
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center items */
+    flex-direction: row; /* Keep elements horizontally aligned */
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: space-between; /* Space between elements */
   }
 
-  .search, .more-games {
-    width: 120px; /* Reduced width for smaller screens */
-    height: 35px; /* Adjusted height */
-    margin: 5px 0; /* Simplified margin */
+  .search {
+    order: 3; /* Places search button on the right */
+    width: 120px;
+    height: 35px;
+    margin: 5px 0 5px 5px;
+  }
+
+  .more-games {
+    order: 1; /* Places "more games" button on the left */
+    width: 120px;
+    height: 35px;
+    margin: 5px 5px 5px 0;
   }
 
   .games {
-    grid-template-columns: repeat(2, 1fr); /* 2 games per row on small screens */
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .game {
-    width: 150px; /* Increased width slightly for 2 games per row layout */
-    height: 150px; /* Adjusted proportionately */
+    width: 150px;
+    height: 150px;
   }
 }

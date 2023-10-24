@@ -407,8 +407,6 @@ header {
 /*Contact us page*/ 
 
 .about-us_top nav {
-  display: flex;
-  justify-content: space-between;
   margin-left: 350px;
 }
 
@@ -691,35 +689,37 @@ textarea {
 
 /* Media query for a screen width below 600px (from 481px to 599px)*/
 
-@media (min-width: 400px) {
-  .hot_summer_deals__image_welcome {
-    min-width: 400px;
+@media screen and (min-width: 481px) and (max-width: 599px) {
+  /* Container */
+  .container {
+      width: 90%; /* Adjust the width to a smaller percentage if needed */
+      margin: 0 auto;
+      padding: 20px;
   }
-}
 
-@media (max-width: 599px) {
-  .hot_summer_deals__image_welcome {
-    max-width: 500px;
+  /* Header */
+  header {
+      text-align: center; /* Center the header text if you prefer */
+      font-size: 1.5em; /* Adjust the font size if necessary */
   }
-}
 
-@media (min-width: 400px) {
-  .hot_summer_deals__image_welcome {
-    min-width: 400px;
+  /* Sidebar */
+  .sidebar {
+      width: 100%; /* Make the sidebar full width */
+      padding: 20px;
+      margin-bottom: 20px; /* Add some margin at the bottom for spacing */
   }
-}
 
-@media (max-width: 599px) {
-  .hot_summer_deals__image_welcome {
-    max-width: 500px;
+  /* Main content */
+  .main-content {
+      width: 100%; /* Make the main content full width */
+      padding: 20px;
   }
-}
 
-
-@media (max-width: 599px) {
-  .black_game__image,
-  .warpath_game__image
-  .football_game__image {
-    max-width: 500px;
+  /* Footer */
+  footer {
+      text-align: center; /* Center the footer text */
+      font-size: 1em; /* Adjust the font size if necessary */
+      padding: 20px;
   }
 }

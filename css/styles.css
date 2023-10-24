@@ -689,53 +689,10 @@ textarea {
 
 /* Media query for a screen width below 600px (from 481px to 581px)*/
 
-@media screen and (min-width: 481px) and (max-width: 581px) {
-  /* Centralizing container to ensure its contents remain centered */
-  .container {
-      width: 100%;
-      box-sizing: border-box;
-      margin: 0 auto;
-      text-align: center;
-  }
-
-  /* Logo */
-  .logo {
-      max-width: 60%; /* Adjust based on your preference */
-      display: block; /* To center using margins */
-      margin: 10px auto; 
-  }
-
-  /* Generic Image selector - ensure specific images do not get affected unintentionally */
-  img {
-      max-width: 80%;
-      height: auto;
-      display: block;
-      margin: 10px auto;
-  }
-
-  /* Buttons */
-  button, .button {
-      width: auto;
-      padding: 5px 10px;
-      display: inline-block;
-      margin: 5px auto; 
-      font-size: 0.9em;
-  }
-
-  /* Search Box */
-  .search-box {
-      width: 70%; 
-      padding: 5px;
-      font-size: 0.9em;
-      display: block; /* To center using margins */
-      margin: 10px auto; 
-  }
-
-  /* Texts */
-  p, h1, h2, h3, h4, h5, h6 {
-      font-size: 0.9em;
-      width: 90%; /* Adjust based on your preference */
-      margin: 5px auto;
-      box-sizing: border-box;
+@media screen and (max-width: 481px) {
+  header {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
   }
 }

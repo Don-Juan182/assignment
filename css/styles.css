@@ -685,3 +685,40 @@ textarea {
 .gameplay img {
     width: 350px;
 }
+
+
+
+/* Media query for a screen width below 600px (from 481px to 599px)*/
+
+@media (min-width: 400px) {
+  .hot_summer_deals__image_welcome {
+    min-width: 400px;
+  }
+}
+
+@media (max-width: 599px) {
+  .hot_summer_deals__image_welcome {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 400px) {
+  .hot_summer_deals__image_welcome {
+    min-width: 400px;
+  }
+}
+
+@media (max-width: 599px) {
+  .hot_summer_deals__image_welcome {
+    max-width: 500px;
+  }
+}
+
+
+@media (max-width: 599px) {
+  .black_game__image,
+  .warpath_game__image
+  .football_game__image {
+    max-width: 500px;
+  }
+}

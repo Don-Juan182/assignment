@@ -407,8 +407,9 @@ header {
 /*Contact us page*/ 
 
 .about-us_top nav {
-  justify-content: center;
-  margin-left: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 350px;
 }
 
 .about-us_info {

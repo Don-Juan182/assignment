@@ -687,39 +687,41 @@ textarea {
 
 
 
-/* Media query for a screen width below 600px (from 481px to 599px)*/
+/* Media query for a screen width below 600px (from 481px to 581px)*/
 
-@media screen and (min-width: 481px) and (max-width: 599px) {
+@media screen and (min-width: 481px) and (max-width: 581px) {
   /* Container */
   .container {
-      width: 90%; /* Adjust the width to a smaller percentage if needed */
-      margin: 0 auto;
-      padding: 20px;
+      width: 100%; /* Use the full width of the screen */
+      box-sizing: border-box; /* Include padding in the width */
+      margin: 0 auto; /* Center the container */
+      padding: 10px; /* Adjust the padding to reduce space */
   }
 
   /* Header */
   header {
-      text-align: center; /* Center the header text if you prefer */
-      font-size: 1.5em; /* Adjust the font size if necessary */
+      text-align: center; /* Center the header text */
+      font-size: 1.4em; /* Slightly reduce font size */
+      padding: 10px 0; /* Adjust the padding for spacing */
   }
 
   /* Sidebar */
   .sidebar {
       width: 100%; /* Make the sidebar full width */
-      padding: 20px;
-      margin-bottom: 20px; /* Add some margin at the bottom for spacing */
+      padding: 10px; /* Adjust padding for spacing */
+      margin-bottom: 15px; /* Adjust margin for spacing between the sidebar and main content */
   }
 
   /* Main content */
   .main-content {
       width: 100%; /* Make the main content full width */
-      padding: 20px;
+      padding: 10px; /* Adjust padding for spacing */
   }
 
   /* Footer */
   footer {
       text-align: center; /* Center the footer text */
       font-size: 1em; /* Adjust the font size if necessary */
-      padding: 20px;
+      padding: 10px 0; /* Adjust padding for spacing */
   }
 }

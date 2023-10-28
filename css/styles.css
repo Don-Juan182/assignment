@@ -686,12 +686,16 @@ textarea {
 }
 
 
-/* Media Queries for screens up to 481px */
+/*mobile styles*/
 
 @media only screen and (max-width: 480px){
 body {
-  width: 350px;
+  width: 320px;
 }
+pre {
+font-size: .8em;
+padding: .5em;
 
+}
 
 }

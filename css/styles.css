@@ -223,20 +223,6 @@ header {
   max-width: 599px;
 }
 
-/* Media query for screens wider than 600px */
-@media screen and (min-width: 600px) {
-  .screenshot-container {
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-around;
-  }
-
-  .screenshot {
-      flex-basis: calc(100% / 2.5);
-  }
-}
-
-
                               /*Checkout Page*/
 
     .checkout-page_top h1, h2 {
@@ -695,8 +681,10 @@ body {
 pre {
 font-size: .5em;
 padding: .3em;
-
 }
+
+
+.hot_summer_deals__image_welcome 
 
 }
 

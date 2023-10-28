@@ -95,6 +95,8 @@ header {
     .bottom {
         background-color: #618F45;
         width: 100vw;
+        height: 400px;
+
     }
     .bottom_titles {
       display: grid;
@@ -112,20 +114,29 @@ header {
     .bottom_info_center,
     .bottom_info_right {
       flex: 1;
-      padding: 70px;
+      padding: 15px;
+      margin-left: 25px;
     }
   
-    .buy-button {
+    .buy-button,
+    ul,
+    il {
+      display: flex;
+      flex-direction: column;
+      align-items: first baseline;
+      text-align: center;
       margin-bottom: 20px;
     }
-    .bottom_icons {
-      display: flex;
-      align-items: center;
-      gap: 5px;
+    .icons_1 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
     }
     
-    .bottom_icons div {
-      flex: 1;
+
+    /*Footer*/
+
+    .footer {
+      height: 50px;
     }
     
                          /*More games/list of games page*/
@@ -633,18 +644,18 @@ textarea {
       /*Icons*/
       
       .instagram {
-        width: 35px;
-        height: 35px;
+        width: 50px;
+        height: 50px;
       }
 
       .steam {
-        width: 35px;
-        height: 35px;
+        width: 50px;
+        height: 50px;
       }
 
       .youtube {
-        width: 35px;
-        height: 35px;
+        width: 50px;
+        height: 50px;
       }
 /*Images*/
 
@@ -709,6 +720,9 @@ padding: .2em;
 }
 .gameplay img {
   width: 150px;
+}
+.bottom {
+  width: 100vw;
 }
 }
 

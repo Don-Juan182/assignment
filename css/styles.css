@@ -21,14 +21,14 @@ p,
 header {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  padding: 30px;
+  justify-content: space-around;
+  padding: 0;
+  margin-top: 0;
+  background-color: #618F45;
+  color: #000000;
+  width: 100vw;
 }
 
-header {
-    background-color: #618F45;
-    color: #000000;
-}
 
 /*Main section*/
 
@@ -94,6 +94,7 @@ header {
 
     .bottom {
         background-color: #618F45;
+        width: 100vw;
     }
     .bottom_titles {
       display: grid;
@@ -280,8 +281,9 @@ header {
         background-color: #618F45;
         color: #000000;
         text-align: center;
-        margin-top: 0.50px;
+        margin-top: .1px;
         height: 50px;
+        width: 100vw;
     }
 
     .checkout-page_top_numbers {

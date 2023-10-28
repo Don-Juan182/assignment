@@ -687,39 +687,11 @@ textarea {
 
 
 /* Media Queries for screens up to 481px */
-@media (max-width: 481px) {
-  .logo {
-    width: 150px;
-    height: 45px;
-    order: 2; /* Places logo in the middle */
-  }
 
-  header {
-    flex-direction: row; /* Keep elements horizontally aligned */
-    flex-wrap: wrap; /* Allow wrapping */
-    justify-content: space-between; /* Space between elements */
-  }
+@media only screen and (max-width: 550px){
+body {
+  width: 320px;
+}
 
-  .search {
-    order: 3; /* Places search button on the right */
-    width: 120px;
-    height: 35px;
-    margin: 5px 0 5px 5px;
-  }
 
-  .more-games {
-    order: 1; /* Places "more games" button on the left */
-    width: 120px;
-    height: 35px;
-    margin: 5px 5px 5px 0;
-  }
-
-  .games {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .game {
-    width: 150px;
-    height: 150px;
-  }
 }

@@ -704,7 +704,9 @@ padding: .3em;
 .boxer_game__image {
   width: 120px;
 }
-
+.gameplay img {
+  width: 150px;
+}
 }
 
 /*desktop styles*/

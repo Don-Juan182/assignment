@@ -747,7 +747,9 @@ align-items: center;
   }
 
   .search-field {
-      /* Any adjustments if needed */
+    max-width: 150px;  /* Further reduced width */
+    height: 25px;      
+    padding: 4px 10px;
   }
 
   .input {
@@ -756,7 +758,6 @@ align-items: center;
   }
 
   .search-box-icon {
-      width: 35px;    /* Reduced width */
       width: 28px;    /* Further reduced width */
       height: 25px;   
       top: -5px;      

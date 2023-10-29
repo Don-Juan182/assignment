@@ -738,7 +738,9 @@ align-items: center;
   font-size: .8em;
   align-items: center;
 }
-.search {
+.search-box,
+.search-field,
+.search-box-icon {
   width: 50%;
   font-size: .8em;
 }

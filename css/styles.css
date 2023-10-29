@@ -733,10 +733,9 @@ align-items: center;
 .bottom_titles {
   font-size: 1.2em;
 }
-.bottom_info_center,
-ul,
 .buy-button {
-  width: 15%;
+  width: 35%;
+  font-size: .8em;
 }
 
 }

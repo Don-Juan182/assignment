@@ -738,10 +738,11 @@ align-items: center;
   font-size: .8em;
   align-items: center;
 }
+.search
 .search-box,
 .search-field,
 .search-box-icon {
-  width: 50%;
+  width: 20%;
   font-size: .8em;
 }
 }

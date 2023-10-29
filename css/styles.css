@@ -782,14 +782,10 @@ align-items: center;
       right: 7px;     /* Adjusted position */
   }
   /* Base styles - you probably already have styles similar to these, just showing for context */
-  .bottom_info {
-    flex-direction: column; /* Stack items vertically */
-}
-
-.bottom_titles, .bottom_info_left, .bottom_info_center, .bottom_info_right {
-    flex: none; /* Reset flex property */
-    width: 100%; /* Take full width */
-    margin: 10px 0; /* Adjust margin for vertical spacing */
+  
+  .bottom_titles, .bottom_info_left, .bottom_info_center, .bottom_info_right {
+    flex-basis: 30%; /* Set a basis for the flex size */
+    margin: 0 5px; /* Reduce margin for smaller spacing */
 }
   ul > il {
       display: none;

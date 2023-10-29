@@ -646,6 +646,10 @@ textarea {
 
 
       /*Icons*/
+      .bottom_icons ul.icons_1 li {
+        margin-right: 10px;
+    }
+    
       
       .instagram {
         width: 50px;

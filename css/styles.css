@@ -729,10 +729,10 @@ display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
-
-
 }
-
+.bottom_titles h3 {
+  font-size: 1.2em;
+}
 
 }
 

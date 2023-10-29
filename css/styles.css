@@ -741,16 +741,17 @@ align-items: center;
 
 /*search button responsive to mobile screen*/
 .search-box {
-  max-width: 100px;  /* Adjust as needed */
-  height: 25px;      /* Adjust as needed */
+  max-width: 75px;  /* Adjust as needed */
+  height: 20px;      /* Adjust as needed */
 }
 
 .search-field {
-  /* Any adjustments if needed */
+  max-width: 75px;  /* Any adjustments if needed */
+  height: 20px;
 }
 
 .input {
-  width: calc(100% - 25px); /* Adjust as needed */
+  width: calc(50% - 18px); /* Adjust as needed */
 }
 
 .search-box-icon {

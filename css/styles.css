@@ -735,7 +735,7 @@ justify-content: flex-start;
 align-items: center;
 }
 .bottom_titles {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 .buy-button {
   width: 100%;
@@ -797,8 +797,8 @@ align-items: center;
 }
 
 .icons_1 img {
-  width: 20px; /* adjust as necessary */
-  height: 20px; /* adjust as necessary */
+  width: 15px; /* adjust as necessary */
+  height: 15px; /* adjust as necessary */
   margin-bottom: 10px; /* Spacing between icons */
 }
   ul > il {

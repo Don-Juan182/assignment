@@ -747,9 +747,9 @@ align-items: center;
   }
 
   .search-field {
-    max-width: 150px;  /* Further reduced width */
-    height: 25px;      
-    padding: 4px 10px;
+    max-width: 700px;  /* Further reduced width */
+    height: 15px;      
+    padding: 4px 8px;
   }
 
   .input {
@@ -780,7 +780,9 @@ align-items: center;
   .bottom_info_left,
   .bottom_info_center,
   .bottom_info_right {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 100vw;
   }
 }

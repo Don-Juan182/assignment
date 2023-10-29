@@ -782,40 +782,15 @@ align-items: center;
       right: 7px;     /* Adjusted position */
   }
   /* Base styles - you probably already have styles similar to these, just showing for context */
-.bottom {
-  display: flex;
-  flex-direction: row;
+  .bottom_info {
+    flex-direction: column; /* Stack items vertically */
 }
 
-.bottom_info {
-  display: flex;
-  flex-direction: row;
+.bottom_titles, .bottom_info_left, .bottom_info_center, .bottom_info_right {
+    flex: none; /* Reset flex property */
+    width: 100%; /* Take full width */
+    margin: 10px 0; /* Adjust margin for vertical spacing */
 }
-
-  .bottom, .bottom_info {
-      flex-direction: column; /* Stack children vertically */
-      align-items: center; /* Center align content for a neater appearance */
-  }
-
-  .bottom_titles, .bottom_info_left, .bottom_info_center, .bottom_info_right {
-      margin-bottom: 20px; /* Add some margin between stacked elements */
-  }
-
-  h3, h4 {
-      font-size: 0.9rem; /* Reduce font size slightly for smaller screens */
-  }
-
-  .buy-button {
-      font-size: 0.8rem; /* Reduce button font size slightly */
-  }
-
-  /* Adjusting icon sizes */
-  .instagram, .steam, .youtube {
-      width: 24px;
-      height: 24px;
-  }
-
-  /* Fixing the 'il' typo */
   ul > il {
       display: none;
   }

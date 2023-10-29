@@ -741,8 +741,9 @@ align-items: center;
 .search
 .search-box,
 .search-field,
-.search-box-icon {
-  width: 70%;
+.search-box-icon
+.input {
+  width: 50%;
   font-size: .8em;
 }
 }

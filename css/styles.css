@@ -131,7 +131,11 @@ header {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
     }
-    
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+  }
+  
 
     /*Footer*/
 

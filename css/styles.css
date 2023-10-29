@@ -724,6 +724,14 @@ padding: .2em;
 .bottom {
   width: 100vw;
 }
+.main-section {
+display: flex;
+justify-content: flex-start;
+
+
+}
+
+
 }
 
 /*desktop styles*/

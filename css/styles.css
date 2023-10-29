@@ -730,7 +730,7 @@ flex-direction: column;
 justify-content: flex-start;
 align-items: center;
 }
-.bottom_titles h3 {
+.bottom_titles {
   font-size: 1.2em;
 }
 

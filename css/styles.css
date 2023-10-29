@@ -733,6 +733,9 @@ align-items: center;
 .bottom_titles {
   font-size: 1.2em;
 }
+.bottom_info_center {
+  width: 25%;
+}
 
 }
 

@@ -104,37 +104,42 @@ header {
       font-size: 1.5em;
       margin-left: 50px;
     }
-
-    .bottom_info {
+    .bottom_info_center ul {
+      list-style-type: none;
+      padding-left: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  
+  .buy-button {
+      margin-bottom: 20px;
+  }
+  
+  .bottom_info {
       display: flex;
       justify-content: space-between;
-    }
-
-    .bottom_info_left,
-    .bottom_info_center,
-    .bottom_info_right {
+  }
+  
+  .bottom_info_left,
+  .bottom_info_center,
+  .bottom_info_right {
       flex: 1;
       padding: 15px;
       margin-left: 25px;
-    }
+  }
   
-    .buy-button,
-    ul,
-    il {
-      display: flex;
-      flex-direction: column;
-      align-items: first baseline;
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    .icons_1 {
+  .icons_1 {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-    }
-    ul {
-      list-style-type: none;
-      padding-left: 0;
+      grid-gap: 10px;
   }
+  
+  .bottom_info_center ul li {
+      display: flex;
+      justify-content: flex-start;
+  }
+  
   
 
     /*Footer*/

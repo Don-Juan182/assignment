@@ -152,7 +152,7 @@ header {
       height: 50px;
     }
     
-                         /*More games/list of games page*/
+   /*More games/list of games page*/
 
     .more-games {
       display: flex;
@@ -177,8 +177,13 @@ header {
   .game {
       margin-bottom: 10px;
   }
+
+  .home_button, 
+  .search {
+    margin-top: 25px;
+  }
   
-                               /*Games page*/
+   /*Games page*/
 
     .product-description {
       display: flex;
@@ -248,7 +253,7 @@ header {
   max-width: 599px;
 }
 
-                              /*Checkout Page*/
+ /*Checkout Page*/
 
     .checkout-page_top h1, h2 {
         background-color: #62FF02;
@@ -354,7 +359,7 @@ header {
   margin-bottom: 50px;
 }
 
-                      /*Checkout success*/
+/*Checkout success*/
 
 .checkout-page {
     display: flex;

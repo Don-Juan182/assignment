@@ -130,9 +130,10 @@ header {
   }
   
   .icons_1 {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 10px;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 5px;
   }
   
   .bottom_info_center ul li {

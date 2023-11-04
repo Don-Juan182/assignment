@@ -852,7 +852,7 @@ align-items: center;
 /*Checkout page*/
 
   .checkout-page_top_numbers {
-      flex-direction: column; /* stack numbers vertically */
+      flex-direction: row; /* stack numbers vertically */
       gap: 10px;
   }
 
@@ -886,13 +886,13 @@ align-items: center;
   }
 
   .checkout-page_top_phase {
-      flex-direction: column; /* Stack phases vertically */
+      flex-direction: row; /* Stack phases vertically */
       gap: 10px;
       margin: 10px 0;
   }
 
   .checkout-page_main {
-      flex-direction: column; /* Stack sections vertically */
+      flex-direction: row; /* Stack sections vertically */
   }
 
   .checkout-page_left, .details_right_both {

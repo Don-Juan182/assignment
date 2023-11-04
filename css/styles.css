@@ -784,55 +784,69 @@ align-items: center;
 }
 
 /*Games page*/
-
-  /* This rule will center all content within the .product-description and .gameplay sections */
-  .product-description, .gameplay {
-    text-align: center;
-  }
-
-  /* This will stack the info, button, and text on top of each other in that order */
-  .product-description_info {
-    order: 1; /* Image and price info on top */
-  }
-
-  .product-description_button {
-    order: 3; /* Button below the description text */
-    width: 100%; /* Full width */
-    margin-top: 20px; /* Adds space above the button */
-  }
-
-  /* This will make the button larger and more prominent */
-  .product-description_button .buy-button {
-    padding: 15px 30px; /* Increase padding to make the button bigger */
-    font-size: 1.5rem; /* Increase font size for better visibility */
-    width: 80%; /* Button width */
-    max-width: 300px; /* Maximum width for the button */
-    margin: 0 auto; /* Center the button */
-  }
-
-  .product-description_text {
-    order: 2; /* Text comes right after the image and price info */
-    width: 100%; /* Full width */
-    margin-top: 20px; /* Adds space above the text */
-  }
-
-  .product-description-text {
-    order: 4; /* Ensures the descriptive text block follows the button */
-  }
-
-  /* Make sure the gameplay title is aligned to the left within its container */
-  .gameplay h2 {
-    text-align: left;
-  }
-
-  /* Aligns screenshots in a column and centers them */
-  .gameplay .screenshot-container {
-    flex-direction: column;
-  }
-
-  .gameplay .screenshot img {
-    width: 100%; /* Makes sure images are responsive and don't overflow */
-  }
+    /* This rule will center all content within the .product-description and .gameplay sections */
+    .product-description, .gameplay {
+      text-align: center;
+    }
+  
+    /* This will stack the info, button, and text on top of each other in that order */
+    .product-description_info {
+      order: 1; /* Image and price info on top */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .product-description_info img {
+      max-width: 100%; /* Ensures image does not exceed the screen width */
+      height: auto; /* Maintains aspect ratio */
+    }
+  
+    .product-description_button {
+      order: 3; /* Button below the description text */
+      width: 100%; /* Full width */
+      margin-top: 20px; /* Adds space above the button */
+    }
+  
+    /* This will make the button larger and more prominent */
+    .product-description_button .buy-button {
+      padding: 15px 30px; /* Increase padding to make the button bigger */
+      font-size: 1.5rem; /* Increase font size for better visibility */
+      width: 80%; /* Button width */
+      max-width: 300px; /* Maximum width for the button */
+      margin: 0 auto; /* Center the button */
+    }
+  
+    .product-description_text {
+      order: 2; /* Text comes right after the image and price info */
+      width: 100%; /* Full width */
+      margin-top: 20px; /* Adds space above the text */
+    }
+  
+    .product-description-text {
+      order: 4; /* Ensures the descriptive text block follows the button */
+      padding: 0 10px; /* Adds some padding on the sides */
+    }
+  
+    /* Adjust the title size for the gameplay section */
+    .gameplay h2 {
+      font-size: 1.2rem; /* Adjust the font size to ensure it fits on small screens */
+      text-align: center; /* Center the title */
+      margin-bottom: 20px; /* Space below the title */
+    }
+  
+    /* Aligns screenshots in a column and centers them */
+    .gameplay .screenshot-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Centers screenshots in a column */
+    }
+  
+    .gameplay .screenshot img {
+      width: 100%; /* Makes sure images are responsive and don't overflow */
+      height: auto; /* Maintain aspect ratio */
+      margin-bottom: 20px; /* Space between the screenshots */
+    }  
 
 /*search button responsive to mobile screen*/
   .search {

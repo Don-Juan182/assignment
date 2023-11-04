@@ -814,7 +814,9 @@ align-items: center;
     .product-description_text {
         order: 2; /* Ensure this comes after the product info and button */
     }
-
+    .gameplay h2 {
+      font-size: 2.5em;
+    }
     .gameplay {
         order: 3; /* Ensure this comes last */
     }

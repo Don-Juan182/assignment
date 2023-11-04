@@ -784,42 +784,7 @@ align-items: center;
 }
 
 /*Games page*/
-/* Base styles - assuming desktop-first approach */
-.product-description_info,
-.product-description_button {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
-.product-description_info img {
-    max-width: 100%;
-    height: auto;
-}
-
-.product-description_button {
-    margin-left: auto; /* Aligns the button to the right */
-}
-
-.product-description_text,
-.gameplay {
-    text-align: center;
-}
-
-.gameplay .screenshot-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-}
-
-.gameplay .screenshot {
-    flex-basis: calc(33.333% - 10px);
-    margin-bottom: 10px;
-}
-
-/* Responsive styles */
-@media (max-width: 480px) {
     .product-description_info {
         flex-direction: column;
         align-items: center;

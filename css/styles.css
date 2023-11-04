@@ -851,80 +851,67 @@ align-items: center;
 
 /*Checkout page*/
 
-  .checkout-page_top_numbers {
-      flex-direction: row; /* stack numbers vertically */
-      gap: 10px;
-  }
-
-  .checkout-page_top h1, .checkout-page_top h2 {
-      font-size: 1em; /* Reduce font size for smaller screens */
-      padding: 8px; /* Adjust padding */
-      width: auto; /* Adjust width */
-      border-radius: 50%; /* Make it a circle */
-  }
-
-  .details_right_title h3 {
-      font-size: 1.5em; /* Adjust font size */
-      width: auto; /* Allow width to auto-adjust */
-      padding: 5px; /* Adjust padding */
-  }
-
-  .details_right_title p {
-      font-size: 2em; /* Adjust font size */
-  }
-
-  .shopping_cart h2, .details_right h2 {
-      font-size: 1.5em; /* Adjust font size */
-      padding: 8px; /* Adjust padding */
-      min-width: 0; /* Remove minimum width constraint */
-  }
-
-  .details_right {
-      width: auto; /* Allow width to auto-adjust */
-      padding: 15px; /* Adjust padding */
-      font-size: 1em; /* Adjust font size */
-  }
-
-  .checkout-page_top_phase {
-      flex-direction: row;
-      font-size: 1.5em;
-      gap: 2px;
-      margin: 10px 0;
-  }
-
-  .checkout-page_main {
-      flex-direction: row; /* Stack sections vertically */
-  }
-
-  .checkout-page_left, .details_right_both {
-      width: 100%; /* Full width for smaller screens */
-      margin: 15px 0; /* Adjust margin */
-  }
-
-  .details_right_title, .details_right {
-      display: block; /* Ensure block-level display */
-  }
-
-  .details_right {
-      margin-bottom: 30px;
-  }
-
-  .details_right_title {
-      flex-direction: column; /* Stack title and price vertically */
-      align-items: flex-start; /* Align items to the start */
-  }
-
-  .details_right_title h3, .details_right h3, .details_right h4, .details_right p {
-      margin-top: 10px; /* Adjust top margin */
-  }
-.details_right_title h3 {
-display: none;
+.checkout-page_top_numbers,
+.checkout-page_top_phase,
+.checkout-page_main,
+.details_right_both {
+    flex-direction: column;
+    align-items: center;
 }
-  /* Adjust button size and alignment */
-  .details_right a button {
-      width: 100%; /* Full width buttons */
-      margin: 10px 0; /* Space between buttons */
-  }
+
+.checkout-page_top_numbers h1,
+.checkout-page_top_phase h2 {
+    /* Adjust the size of the circles and font for the steps and phases */
+    font-size: 1rem; /* Adjust font size as needed */
+    width: 35px; /* Adjust width as needed */
+    height: 35px; /* Adjust height as needed */
+    line-height: 35px; /* Center the text vertically */
+    margin: 0; /* Remove any margins */
+}
+
+.checkout-page_top_phase {
+    /* Adjust the phase texts below the circles */
+    gap: 0; /* Remove any gap if present */
+    margin-top: 10px; /* Space between the numbers and the text */
+}
+
+.checkout-page_top_numbers,
+.checkout-page_top_phase {
+    width: 100%; /* Full width */
+    justify-content: space-around; /* Evenly space the elements */
+}
+
+/* Image and details adjustments */
+.checkout-page_left,
+.details_right_both {
+    width: 100%; /* Full width */
+}
+
+.checkout-page_left img {
+    max-width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.details_right_title p,
+.details_right h3,
+.details_right h4 {
+    text-align: center; /* Center align the text */
+}
+
+.details_right_title {
+    flex-direction: column; /* Stack title and price vertically */
+}
+
+.details_right {
+    margin-top: 20px; /* Space above the summary section */
+}
+
+/* Button adjustments */
+.details_right a button {
+    width: 90%; /* Almost full width, leave some space */
+    margin: 10px 0; /* Space between buttons */
+}
+
 
 
 /*search button responsive to mobile screen*/

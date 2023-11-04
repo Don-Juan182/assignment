@@ -882,17 +882,18 @@ align-items: center;
 }
 
 /* Image and details adjustments */
-.checkout-page_left,
-.details_right_both {
-    width: 100%; /* Full width */
-}
-
 .checkout-page_left img {
     max-width: 150px; /* Make image responsive */
     height: 150px; /* Maintain aspect ratio */
 }
-.details_right h3 {
+.details_right_title h3 {
   display: none;
+}
+.checkout-page_left,
+.details_right_title p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .details_right_title p,

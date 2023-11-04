@@ -893,8 +893,7 @@ align-items: center;
 .details_right_title p {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  justify-content: flex-start;
+  justify-content: start;
 }
 
 .details_right_title p,

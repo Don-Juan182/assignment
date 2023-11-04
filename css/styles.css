@@ -856,7 +856,7 @@ align-items: center;
 .checkout-page_top_numbers h1,
 .checkout-page_top_phase h2 {
     font-size: 1rem;
-    width: 25px;
+    width: 100vw;
     height: 25px;
     line-height: 25px;
     margin: 0 5px;
@@ -886,10 +886,12 @@ align-items: center;
 .details_right h4 {
     text-align: start;
     margin: 0;
+    width: 100vw;
 }
 
 .details_right {
     margin-top: 20px;
+    width: 100vw;
 }
 
 /* Button adjustments */

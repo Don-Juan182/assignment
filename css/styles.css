@@ -784,16 +784,87 @@ align-items: center;
 }
 
 /*Games page*/
-.product-description {
-  display: flex;
-      flex-wrap: wrap;
-      gap: 5px;
+/* Base styles - assuming desktop-first approach */
+.product-description_info,
+.product-description_button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.product-description_info img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-description_button {
+    margin-left: auto; /* Aligns the button to the right */
+}
+
+.product-description_text,
 .gameplay {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    text-align: center;
 }
+
+.gameplay .screenshot-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gameplay .screenshot {
+    flex-basis: calc(33.333% - 10px);
+    margin-bottom: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 480px) {
+    .product-description_info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-description_button {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .product-description_info,
+    .product-description_text {
+        width: 100%;
+        padding: 0 15px; /* Adds padding on small screens */
+    }
+
+    .product-description_button .buy-button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .product-description {
+        display: block; /* Stack children vertically */
+    }
+
+    .product-description_text {
+        order: 2; /* Ensure this comes after the product info and button */
+    }
+
+    .gameplay {
+        order: 3; /* Ensure this comes last */
+    }
+
+    .gameplay h2 {
+        margin-top: 20px; /* Add space above the title */
+    }
+
+    .gameplay .screenshot-container {
+        flex-direction: column;
+    }
+
+    .gameplay .screenshot {
+        width: 100%; /* Make screenshots full width */
+    }
 
 /*search button responsive to mobile screen*/
   .search {

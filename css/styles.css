@@ -76,11 +76,11 @@ header {
         margin-left: 5px;
     }
     .main-section {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      margin: 40px;
-      grid-gap: 45px
-   }
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-bottom: 50px;
+    }
 
    .main-section p, h2 {
       margin-block-start: 1em;

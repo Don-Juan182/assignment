@@ -154,6 +154,13 @@ header {
     
    /*More games/list of games page*/
     
+   .sports_title {
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 100px; /* This pushes the title to the right from the left edge of its container */
+    font-size: 4em; /* Adjust the font size as needed */
+  }
+  
     .more-games h1 {
       width: 100%;
       text-align: center;

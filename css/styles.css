@@ -785,54 +785,63 @@ align-items: center;
 
 /*Games page*/
 
-    .product-description_info {
-        flex-direction: column;
-        align-items: center;
-    }
+  .product-description_info,
+  .product-description_button,
+  .product-description_text,
+  .gameplay {
+      text-align: center; /* Centers text */
+  }
 
-    .product-description_button {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
+  .product-description_info {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Centers flex items */
+  }
 
-    .product-description_info,
-    .product-description_text {
-        width: 100%;
-        padding: 0 15px; /* Adds padding on small screens */
-    }
+  .product-description_button {
+      display: flex;
+      justify-content: center; /* Centers the button */
+      margin-top: 20px; /* Space above the button */
+  }
 
-    .product-description_button .buy-button {
-        margin-left: 0;
-        margin-top: 10px;
-    }
+  .product-description_button .buy-button {
+      margin-left: auto; /* Pushes the button to the right */
+      margin-right: auto; /* Maintains center if needed */
+  }
 
-    .product-description {
-        display: block; /* Stack children vertically */
-    }
+  .product-description_info img {
+      max-width: 100%; /* Ensures image is not wider than the screen */
+      height: auto;
+      margin-bottom: 20px; /* Space below the image */
+  }
 
-    .product-description_text {
-        order: 2; /* Ensure this comes after the product info and button */
-    }
-    .gameplay h2 {
-      font-size: 1.5em;
-      align-items: start;
-    }
-    .gameplay {
-        order: 3; /* Ensure this comes last */
-    }
+  .product-description_text {
+      display: block; /* Stacks the text block under the image and button */
+      width: 100%; /* Text block spans the full width */
+  }
 
-    .gameplay h2 {
-        margin-top: 20px; /* Add space above the title */
-    }
+  .gameplay h2 {
+      font-size: 1.5rem; /* Smaller font size for the title on small screens */
+      text-align: center; /* Title centered on small screens */
+      margin-bottom: 20px; /* Space below the title */
+  }
 
-    .gameplay .screenshot-container {
-        flex-direction: column;
-    }
+  .gameplay .screenshot-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Centers screenshots in a column */
+  }
 
-    .gameplay .screenshot {
-        width: 100%; /* Make screenshots full width */
-    }
+  .gameplay .screenshot {
+      width: 100%; /* Each screenshot takes full width */
+      margin-bottom: 10px; /* Space between screenshots */
+  }
+
+  .gameplay .screenshot img {
+      width: 100%; /* Image fills its container */
+      height: auto; /* Maintain aspect ratio */
+  }
+
 
 /*search button responsive to mobile screen*/
   .search {

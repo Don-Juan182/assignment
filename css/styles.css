@@ -854,8 +854,7 @@ align-items: center;
 /* Base styles for small screens */
 
 .checkout-page_top_numbers,
-.checkout-page_top_phase,
-.checkout-page_main {
+.checkout-page_top_phase {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
@@ -872,7 +871,7 @@ align-items: center;
 }
 
 .checkout-page_top_phase {
-    margin-top: 5px; /* Space between the numbers and the text */
+    margin-top: 2px; /* Space between the numbers and the text */
 }
 
 /* Image and details adjustments */
@@ -891,28 +890,14 @@ align-items: center;
     display: none; /* Hide price on small screens next to title */
 }
 
-/* New container structure for image and details */
-.details_right_both {
-    display: flex;
-    flex-direction: column; /* Stack the child elements in a column */
-}
-
 .details_right_title,
-.details_right {
-    display: flex;
-    flex-direction: column; /* Stack the title and summary in a column */
-    width: 100%; /* Use full width for title and summary on small screens */
-}
-
-.details_right_title {
+.checkout-page_left img {
     flex-direction: row; /* Title and image side by side */
     align-items: center; /* Align the items vertically */
     justify-content: start; /* Align items to the start of the container */
     flex-wrap: wrap; /* Allow wrapping if needed */
 }
 
-/* Ensuring the paragraph and summary text are aligned properly */
-.details_right_title p,
 .details_right h4 {
     text-align: start;
     margin: 0; /* Remove default margins */

@@ -858,9 +858,6 @@ align-items: center;
     flex-direction: row;
     align-items: center;
 }
-.details_right_title h3 {
-  display: none;
-}
 
 .checkout-page_top_numbers h1,
 .checkout-page_top_phase h2 {

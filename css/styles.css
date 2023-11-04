@@ -864,21 +864,21 @@ align-items: center;
     /* Adjust the size of the circles and font for the steps and phases */
     font-size: 1rem; /* Adjust font size as needed */
     width: 25px; /* Adjust width as needed */
-    height: 20px; /* Adjust height as needed */
+    height: 25px; /* Adjust height as needed */
     line-height: 35px; /* Center the text vertically */
     margin: 0; /* Remove any margins */
 }
 
 .checkout-page_top_phase {
     /* Adjust the phase texts below the circles */
-    gap: 0; /* Remove any gap if present */
+    gap: 5px; /* Remove any gap if present */
     margin-top: 5px; /* Space between the numbers and the text */
 }
 
 .checkout-page_top_numbers,
 .checkout-page_top_phase {
     width: 85%; /* Full width */
-    justify-content: space-around; /* Evenly space the elements */
+    justify-content: space-evenly; /* Evenly space the elements */
 }
 
 /* Image and details adjustments */
@@ -893,7 +893,8 @@ align-items: center;
 .details_right_title p {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  justify-content: flex-start;
 }
 
 .details_right_title p,
@@ -901,12 +902,11 @@ align-items: center;
     text-align: start; /* Center align the text */
 }
 
-.details_right_title {
-    flex-direction: column; /* Stack title and price vertically */
-}
-
 .details_right {
     margin-top: 20px; /* Space above the summary section */
+}
+.details_right_title {
+  flex-wrap: wrap; /* Allows items to wrap if there's not enough space */
 }
 
 /* Button adjustments */

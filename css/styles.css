@@ -785,74 +785,53 @@ align-items: center;
 
 /*Games page*/
 
-  /* Centers all text and content within these elements */
-  .product-description_info,
-  .product-description_text,
-  .gameplay {
+  /* This rule will center all content within the .product-description and .gameplay sections */
+  .product-description, .gameplay {
     text-align: center;
   }
 
-  /* Makes the button container full width and centers the content */
-  .product-description_button {
-    width: 100%;
-    display: flex;
-    justify-content: center; /* This will center the button itself */
-    order: 2; /* Moves the button below the product info and above the description text */
-    padding: 10px 0; /* Adds padding above and below the button */
-  }
-
-  /* Adjusts the button size and styling */
-  .product-description_button .buy-button {
-    padding: 10px 20px; /* Larger button padding */
-    font-size: 1.2em; /* Larger font size for the button */
-    width: auto; /* Auto width for the button */
-    margin: 0; /* Removes any auto margin if present */
-  }
-
-  /* Sets the order and layout of the product info to display above the button */
+  /* This will stack the info, button, and text on top of each other in that order */
   .product-description_info {
-    order: 1; /* Ensures this comes before the button */
-    margin-bottom: 0; /* Removes any margin below the product info */
+    order: 1; /* Image and price info on top */
   }
 
-  /* Ensures the image does not exceed the width of the screen */
-  .product-description_info img {
-    max-width: 100%;
-    height: auto;
+  .product-description_button {
+    order: 3; /* Button below the description text */
+    width: 100%; /* Full width */
+    margin-top: 20px; /* Adds space above the button */
   }
 
-  /* Ensures the text is full width and order correctly below the button */
+  /* This will make the button larger and more prominent */
+  .product-description_button .buy-button {
+    padding: 15px 30px; /* Increase padding to make the button bigger */
+    font-size: 1.5rem; /* Increase font size for better visibility */
+    width: 80%; /* Button width */
+    max-width: 300px; /* Maximum width for the button */
+    margin: 0 auto; /* Center the button */
+  }
+
   .product-description_text {
-    order: 3; /* Ensures this comes after the button */
-    width: 100%;
+    order: 2; /* Text comes right after the image and price info */
+    width: 100%; /* Full width */
+    margin-top: 20px; /* Adds space above the text */
   }
 
-  /* Game description text styling */
   .product-description-text {
-    margin-top: 20px; /* Space after the button */
+    order: 4; /* Ensures the descriptive text block follows the button */
   }
 
-  /* Gameplay section and title alignment */
-  .gameplay {
-    margin-top: 20px; /* Space after the description section */
-  }
-
+  /* Make sure the gameplay title is aligned to the left within its container */
   .gameplay h2 {
     text-align: left;
-    margin-left: 10px; /* Spacing from the left edge */
   }
 
-  /* Screenshot container and image styling for a column layout */
+  /* Aligns screenshots in a column and centers them */
   .gameplay .screenshot-container {
-    display: flex;
     flex-direction: column;
-    align-items: center; /* Centers the screenshots */
   }
 
   .gameplay .screenshot img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px; /* Space between screenshots */
+    width: 100%; /* Makes sure images are responsive and don't overflow */
   }
 
 /*search button responsive to mobile screen*/

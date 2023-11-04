@@ -849,6 +849,81 @@ align-items: center;
       margin-bottom: 20px; /* Space between the screenshots */
     }  
 
+/*Checkout page*/
+
+  .checkout-page_top_numbers {
+      flex-direction: column; /* stack numbers vertically */
+      gap: 10px;
+  }
+
+  .checkout-page_top h1, .checkout-page_top h2 {
+      font-size: 1em; /* Reduce font size for smaller screens */
+      padding: 8px; /* Adjust padding */
+      width: auto; /* Adjust width */
+      border-radius: 50%; /* Make it a circle */
+  }
+
+  .details_right_title h3 {
+      font-size: 1.5em; /* Adjust font size */
+      width: auto; /* Allow width to auto-adjust */
+      padding: 5px; /* Adjust padding */
+  }
+
+  .details_right_title p {
+      font-size: 2em; /* Adjust font size */
+  }
+
+  .shopping_cart h2, .details_right h2 {
+      font-size: 1.5em; /* Adjust font size */
+      padding: 8px; /* Adjust padding */
+      min-width: 0; /* Remove minimum width constraint */
+  }
+
+  .details_right {
+      width: auto; /* Allow width to auto-adjust */
+      padding: 15px; /* Adjust padding */
+      font-size: 1em; /* Adjust font size */
+  }
+
+  .checkout-page_top_phase {
+      flex-direction: column; /* Stack phases vertically */
+      gap: 10px;
+      margin: 10px 0;
+  }
+
+  .checkout-page_main {
+      flex-direction: column; /* Stack sections vertically */
+  }
+
+  .checkout-page_left, .details_right_both {
+      width: 100%; /* Full width for smaller screens */
+      margin: 15px 0; /* Adjust margin */
+  }
+
+  .details_right_title, .details_right {
+      display: block; /* Ensure block-level display */
+  }
+
+  .details_right {
+      margin-bottom: 30px;
+  }
+
+  .details_right_title {
+      flex-direction: column; /* Stack title and price vertically */
+      align-items: flex-start; /* Align items to the start */
+  }
+
+  .details_right_title h3, .details_right h3, .details_right h4, .details_right p {
+      margin-top: 10px; /* Adjust top margin */
+  }
+
+  /* Adjust button size and alignment */
+  .details_right a button {
+      width: 100%; /* Full width buttons */
+      margin: 10px 0; /* Space between buttons */
+  }
+
+
 /*search button responsive to mobile screen*/
   .search {
       --search-max-width: 167px;

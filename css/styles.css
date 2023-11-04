@@ -874,16 +874,9 @@ align-items: center;
     margin-top: 2px; /* Space between the numbers and the text */
 }
 
-/* Image and details adjustments */
-.checkout-page_left {
-    display: flex;
-    justify-content: center; /* Center the image in its container */
-    max-width: 150px; /* Limiting max-width for the image container */
-}
-
 .checkout-page_left img {
-    max-width: 100%; /* Image can scale within its container */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 150px; /* Image can scale within its container */
+    height: 150px; /* Maintain aspect ratio */
 }
 
 .details_right_title h3 {

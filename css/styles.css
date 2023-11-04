@@ -866,8 +866,8 @@ align-items: center;
 .checkout-page_top_phase h2 {
     /* Adjust the size of the circles and font for the steps and phases */
     font-size: 1rem; /* Adjust font size as needed */
-    width: 35px; /* Adjust width as needed */
-    height: 35px; /* Adjust height as needed */
+    width: 25px; /* Adjust width as needed */
+    height: 20px; /* Adjust height as needed */
     line-height: 35px; /* Center the text vertically */
     margin: 0; /* Remove any margins */
 }
@@ -880,7 +880,7 @@ align-items: center;
 
 .checkout-page_top_numbers,
 .checkout-page_top_phase {
-    width: 100%; /* Full width */
+    width: 85%; /* Full width */
     justify-content: space-around; /* Evenly space the elements */
 }
 

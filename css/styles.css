@@ -784,9 +784,10 @@ align-items: center;
 }
 
 /*Games page*/
+
     /* This rule will center all content within the .product-description and .gameplay sections */
     .product-description, .gameplay {
-      text-align: center;
+      text-align: start;
     }
   
     /* This will stack the info, button, and text on top of each other in that order */
@@ -794,7 +795,7 @@ align-items: center;
       order: 1; /* Image and price info on top */
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: start;
     }
   
     .product-description_info img {
@@ -831,7 +832,7 @@ align-items: center;
     /* Adjust the title size for the gameplay section */
     .gameplay h2 {
       font-size: 1.2rem; /* Adjust the font size to ensure it fits on small screens */
-      text-align: center; /* Center the title */
+      text-align: start; /* Center the title */
       margin-bottom: 20px; /* Space below the title */
     }
   
@@ -839,7 +840,7 @@ align-items: center;
     .gameplay .screenshot-container {
       display: flex;
       flex-direction: column;
-      align-items: center; /* Centers screenshots in a column */
+      align-items: start; /* Centers screenshots in a column */
     }
   
     .gameplay .screenshot img {

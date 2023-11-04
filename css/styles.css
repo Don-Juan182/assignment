@@ -785,79 +785,72 @@ align-items: center;
 
 /*Games page*/
 
-    /* This rule will center all content within the .product-description and .gameplay sections */
     .product-description, .gameplay {
       text-align: start;
     }
   
-    /* This will stack the info, button, and text on top of each other in that order */
     .product-description_info {
-      order: 1; /* Image and price info on top */
+      order: 1;
       display: flex;
       flex-direction: column;
       align-items: start;
     }
   
     .product-description_info img {
-      max-width: 100%; /* Ensures image does not exceed the screen width */
-      height: auto; /* Maintains aspect ratio */
+      max-width: 100%;
+      height: auto;
     }
   
     .product-description_button {
-      order: 3; /* Button below the description text */
-      width: 100%; /* Full width */
-      margin-top: 20px; /* Adds space above the button */
+      order: 3;
+      width: 100%;
+      margin-top: 20px;
     }
-  
-    /* This will make the button larger and more prominent */
     .product-description_button .buy-button {
-      padding: 15px 30px; /* Increase padding to make the button bigger */
-      font-size: 1.5rem; /* Increase font size for better visibility */
-      width: 80%; /* Button width */
-      max-width: 300px; /* Maximum width for the button */
-      margin: 0 auto; /* Center the button */
+      padding: 15px 30px;
+      font-size: 1.5rem;
+      width: 80%;
+      max-width: 300px;
+      margin: 0 auto;
     }
   
     .product-description_text {
-      order: 2; /* Text comes right after the image and price info */
-      width: 100%; /* Full width */
-      margin-top: 20px; /* Adds space above the text */
+      order: 2;
+      width: 100%;
+      margin-top: 20px;
     }
   
     .product-description-text {
-      order: 4; /* Ensures the descriptive text block follows the button */
-      padding: 0 10px; /* Adds some padding on the sides */
+      order: 4;
+      padding: 0 10px;
     }
   
-    /* Adjust the title size for the gameplay section */
     .gameplay h2 {
-      font-size: 1.2rem; /* Adjust the font size to ensure it fits on small screens */
-      text-align: start; /* Center the title */
-      margin-bottom: 20px; /* Space below the title */
+      font-size: 1.2rem;
+      text-align: start;
+      margin-bottom: 20px;
     }
   
-    /* Aligns screenshots in a column and centers them */
     .gameplay .screenshot-container {
       display: flex;
       flex-direction: column;
-      align-items: start; /* Centers screenshots in a column */
+      align-items: start;
     }
   
     .gameplay .screenshot img {
-      width: 100%; /* Makes sure images are responsive and don't overflow */
-      height: auto; /* Maintain aspect ratio */
-      margin-bottom: 20px; /* Space between the screenshots */
+      width: 100%; 
+      height: auto;
+      margin-bottom: 20px;
     }  
 
 /*Checkout page*/
-
-/* Base styles for small screens */
 
 .checkout-page_top_numbers,
 .checkout-page_top_phase {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    margin-bottom: 30px;
 }
 
 .checkout-page_top_numbers h1,
@@ -865,54 +858,52 @@ align-items: center;
     font-size: 1rem;
     width: 25px;
     height: 25px;
-    line-height: 25px; /* Adjust to center the number in the circle */
-    margin: 0 5px; /* Add space around the numbers if needed */
+    line-height: 25px;
+    margin: 0 5px;
     text-align: center;
 }
 
 .checkout-page_top_phase {
-    margin-top: 2px; /* Space between the numbers and the text */
+    margin-top: 2px;
 }
 
 .checkout-page_left img {
-    max-width: 150px; /* Image can scale within its container */
-    height: 150px; /* Maintain aspect ratio */
+    max-width: 150px;
+    height: 150px;
 }
 
 .details_right_title h3 {
-    display: none; /* Hide price on small screens next to title */
-}
+    display: none;
 
 .details_right_title,
 .checkout-page_left img {
-    flex-direction: row; /* Title and image side by side */
-    align-items: center; /* Align the items vertically */
-    justify-content: start; /* Align items to the start of the container */
-    flex-wrap: wrap; /* Allow wrapping if needed */
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
 }
 
 .details_right h4 {
     text-align: start;
-    margin: 0; /* Remove default margins */
+    margin: 0;
 }
 
 .details_right {
-    margin-top: 20px; /* Space above the summary section */
+    margin-top: 20px;
 }
 
 /* Button adjustments */
 .details_right a button {
-    width: 80%; /* Almost full width, leave some space */
-    margin: 10px 0; /* Space between buttons */
+    width: 80%;
+    margin: 10px 0;
 }
 
 
 /* Button adjustments */
 .details_right a button {
-    width: 80%; /* Almost full width, leave some space */
-    margin: 10px 0; /* Space between buttons */
+    width: 80%; 
+    margin: 10px 0;
 }
-
 
 
 /*search button responsive to mobile screen*/

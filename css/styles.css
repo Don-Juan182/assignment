@@ -888,12 +888,14 @@ align-items: center;
 }
 
 .checkout-page_left img {
-    max-width: 100%; /* Make image responsive */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 150px; /* Make image responsive */
+    height: 150px; /* Maintain aspect ratio */
+}
+.details_right h3 {
+  display: none;
 }
 
 .details_right_title p,
-.details_right h3,
 .details_right h4 {
     text-align: start; /* Center align the text */
 }

@@ -791,6 +791,21 @@ align-items: center;
   .gameplay {
       text-align: start; /* Centers text */
   }
+  .product-description {
+    flex-direction: column; /* Stack flex items vertically */
+    align-items: center; /* Align items in the center for small screens */
+}
+
+.product-description_info,
+.product-description_button {
+    width: 100%; /* Force full width for small screens */
+    text-align: center; /* Center-align the text for the 'info' and 'button' sections */
+}
+
+.product-description_button {
+    order: -1; /* Place the 'button' section above the 'info' section */
+    margin-bottom: 20px; /* Add some space below the button */
+}
 
   .product-description_info {
       display: flex;
@@ -841,11 +856,7 @@ align-items: center;
       width: 100%; /* Image fills its container */
       height: auto; /* Maintain aspect ratio */
   }
-  .buy-button {
-    padding: 20px 40px; /* Even larger padding for a bigger button on small screens */
-    font-size: 1.4rem; /* Even larger font size for the button text on small screens */
-    /* Any other adjustments you want specifically for small screens */
-}
+
 
 
 /*search button responsive to mobile screen*/

@@ -153,17 +153,16 @@ header {
     }
     
    /*More games/list of games page*/
-
-    .more-games {
-      display: flex;
-      flex-wrap: wrap;
-    }
     
     .more-games h1 {
       width: 100%;
       text-align: center;
       margin-bottom: 20px;
       font-size: 3em;
+    }
+    .more-games {
+      display: flex;
+      justify-content: space-evenly;
     }
 
     .more-games_list {
@@ -237,7 +236,7 @@ header {
 
 .screenshot-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 20px;
   align-items: center;
 }
@@ -326,7 +325,7 @@ header {
     .checkout-page_top_phase {
       display: flex;
       flex-direction: row;
-      justify-content: left;
+      justify-content: space-evenly;
       gap: 90px;
       align-items: center;
       margin: 0px 0px 10px 40px;

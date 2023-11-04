@@ -886,8 +886,9 @@ align-items: center;
   }
 
   .checkout-page_top_phase {
-      flex-direction: row; /* Stack phases vertically */
-      gap: 10px;
+      flex-direction: row;
+      font-size: 1.5em;
+      gap: 2px;
       margin: 10px 0;
   }
 
@@ -916,7 +917,9 @@ align-items: center;
   .details_right_title h3, .details_right h3, .details_right h4, .details_right p {
       margin-top: 10px; /* Adjust top margin */
   }
-
+.details_right_title h3 {
+display: none;
+}
   /* Adjust button size and alignment */
   .details_right a button {
       width: 100%; /* Full width buttons */

@@ -841,6 +841,11 @@ align-items: center;
       width: 100%; /* Image fills its container */
       height: auto; /* Maintain aspect ratio */
   }
+  .buy-button {
+    padding: 20px 40px; /* Even larger padding for a bigger button on small screens */
+    font-size: 1.4rem; /* Even larger font size for the button text on small screens */
+    /* Any other adjustments you want specifically for small screens */
+}
 
 
 /*search button responsive to mobile screen*/

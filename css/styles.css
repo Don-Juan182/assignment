@@ -855,8 +855,11 @@ align-items: center;
 .checkout-page_top_phase,
 .checkout-page_main,
 .details_right_both {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+}
+.details_right_title h3 {
+  display: none;
 }
 
 .checkout-page_top_numbers h1,
@@ -872,7 +875,7 @@ align-items: center;
 .checkout-page_top_phase {
     /* Adjust the phase texts below the circles */
     gap: 0; /* Remove any gap if present */
-    margin-top: 10px; /* Space between the numbers and the text */
+    margin-top: 5px; /* Space between the numbers and the text */
 }
 
 .checkout-page_top_numbers,
@@ -895,7 +898,7 @@ align-items: center;
 .details_right_title p,
 .details_right h3,
 .details_right h4 {
-    text-align: center; /* Center align the text */
+    text-align: start; /* Center align the text */
 }
 
 .details_right_title {
@@ -908,7 +911,7 @@ align-items: center;
 
 /* Button adjustments */
 .details_right a button {
-    width: 90%; /* Almost full width, leave some space */
+    width: 80%; /* Almost full width, leave some space */
     margin: 10px 0; /* Space between buttons */
 }
 

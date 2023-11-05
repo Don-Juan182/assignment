@@ -916,12 +916,15 @@ align-items: center;
 
 /*Checkout success*/
 
-  .part1_top, .part2_top {
-    flex-direction: column;
+  .part1_top, 
+  .part2_top {
+    flex-direction: row;
     align-items: center;
   }
 
-  .part1_top h1, .part2_top h2, .part2_top_download h2 {
+  .part1_top h1, 
+  .part2_top h2, 
+  .part2_top_download h2 {
     font-size: 1em; /* Adjust the font size */
     min-width: 0; /* Remove the min-width to allow for natural resizing */
     margin: 5px; /* Adjust margin for smaller spacing */
@@ -935,6 +938,7 @@ align-items: center;
     margin: 0 auto; /* Center the image and remove the left margin */
     max-width: 100%; /* Ensure the image is not larger than the screen */
     height: auto; /* Keep the image's aspect ratio */
+    order: 2;
   }
 
   .checkout-page_column_right {
@@ -945,6 +949,7 @@ align-items: center;
 
   .checkout-page_column_right p {
     font-size: 1.5em; /* Adjust font size for smaller screens */
+    order: 1;
   }
 
   /* If .buy-button is not styled for mobile, add styles for it */

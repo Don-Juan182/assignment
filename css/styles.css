@@ -916,11 +916,44 @@ align-items: center;
 
 /*Checkout success*/
 
-.checkout-page_column_left,
-.checkout-page_column_right {
-  display: flex;
-  justify-content: start;
-}
+  .part1_top, .part2_top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .part1_top h1, .part2_top h2, .part2_top_download h2 {
+    font-size: 1em; /* Adjust the font size */
+    min-width: 0; /* Remove the min-width to allow for natural resizing */
+    margin: 5px; /* Adjust margin for smaller spacing */
+  }
+
+  .checkout-page_center {
+    flex-direction: column; /* Stack the left and right columns vertically */
+  }
+
+  .checkout-page_column_left img {
+    margin: 0 auto; /* Center the image and remove the left margin */
+    max-width: 100%; /* Ensure the image is not larger than the screen */
+    height: auto; /* Keep the image's aspect ratio */
+  }
+
+  .checkout-page_column_right {
+    flex: none; /* Remove the flex-grow property */
+    width: 100%; /* Set to full width */
+    padding: 10px; /* Add padding to prevent content touching the edges */
+  }
+
+  .checkout-page_column_right p {
+    font-size: 1.5em; /* Adjust font size for smaller screens */
+  }
+
+  /* If .buy-button is not styled for mobile, add styles for it */
+  .buy-button {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px; /* Add more padding for a larger tap area */
+    margin-top: 10px; /* Add some space above the button */
+  }
+
 /*search button responsive to mobile screen*/
   .search {
       --search-max-width: 167px;

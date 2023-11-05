@@ -918,7 +918,8 @@ align-items: center;
 
 .checkout-page_column_left,
 .checkout-page_column_right {
-  align-items: flex-start;
+  display: flex;
+  justify-content: start;
 }
 /*search button responsive to mobile screen*/
   .search {

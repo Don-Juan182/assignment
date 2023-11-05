@@ -850,7 +850,8 @@ align-items: center;
     flex-direction: row;
     justify-content: space-evenly; /* Adjust spacing to distribute items evenly */
     align-items: start;
-    max-width: 70%; /* Ensuring it doesn't exceed the viewport width */
+    max-width: 40%; /* Ensuring it doesn't exceed the viewport width */
+    left: 10px;
     padding: 0 0px; /* Add padding on the sides */
      /* Include padding in width calculation */
   }

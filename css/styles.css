@@ -849,9 +849,9 @@ align-items: center;
   .checkout-page_top_phase {
     flex-direction: row;
     justify-content: space-evenly; /* Adjust spacing to distribute items evenly */
-    align-items: center;
-    max-width: 80%; /* Ensuring it doesn't exceed the viewport width */
-    padding: 0 2px; /* Add padding on the sides */
+    align-items: start;
+    max-width: 50%; /* Ensuring it doesn't exceed the viewport width */
+    padding: 0 0px; /* Add padding on the sides */
     box-sizing: border-box; /* Include padding in width calculation */
   }
 

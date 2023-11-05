@@ -848,7 +848,7 @@ align-items: center;
 .checkout-page_top_numbers,
   .checkout-page_top_phase {
       /* Updated flex-direction and justify-content for better spacing on small screens */
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
       justify-content: center;
       max-width: 90vw;

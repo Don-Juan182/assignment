@@ -850,53 +850,49 @@ align-items: center;
   .checkout-page_top_numbers,
   .checkout-page_top_phase {
     flex-direction: row;
-    justify-content: space-evenly; /* Adjust spacing to distribute items evenly */
+    justify-content: space-evenly;
     align-items: start;
-    max-width: 40%; /* Ensuring it doesn't exceed the viewport width */
+    max-width: 40%;
     left: 10px;
-    padding: 0 0px; /* Add padding on the sides */
-     /* Include padding in width calculation */
+    padding: 0 0px;
   }
 
   .checkout-page_top_numbers h1,
   .checkout-page_top_phase h2 {
-    font-size: 0.8rem; /* Decrease the font size */
-    margin: 0 2px; /* Reduce margin for spacing */
-    /* You may adjust width and height if needed, or keep them as is */
+    font-size: 0.8rem;
+    margin: 0 2px;
   }
 
   .checkout-page_top_numbers h1 {
-    border-radius: 40%; /* Fully rounded borders for the numbers */
+    border-radius: 40%;
   }
 
   .checkout-page_top_phase {
-    margin-top: 0; /* Remove extra margin-top */
+    margin-top: 0;
   }
 
-  /* Adjust image sizes as necessary */
   .checkout-page_left img {
-    max-width: 100px; /* Smaller max-width for the images */
-    height: auto; /* Keep height auto for aspect ratio */
+    max-width: 100px;
+    height: auto;
   }
 
   .details_right_title h3 {
     display: none;
   }
   .details_right h4 {
-    text-align: left; /* Align text to the start */
+    text-align: left;
     margin: 0;
-    width: auto; /* Width auto for natural sizing */
+    width: auto;
   }
 
   .details_right {
     order: 2;
     margin-top: 20px;
-    width: auto; /* Auto width to prevent overflow */
+    width: auto;
   }
 
-  /* Button adjustment for full width */
   .details_right a button {
-    width: 100%; /* Full width for the button */
+    width: 100%;
     margin: 10px 0;
   }
 
@@ -911,20 +907,18 @@ align-items: center;
   .part1_top h1, 
   .part2_top h2, 
   .part2_top_download h2 {
-    font-size: 1em; /* Adjust the font size */
-    min-width: 0; /* Remove the min-width to allow for natural resizing */
-    margin: 5px; /* Adjust margin for smaller spacing */
+    font-size: 1em;
+    min-width: 0;
+    margin: 5px;
   }
 
   .checkout-page_center {
-    /* Ensure that the direction is column for mobile to stack items */
     flex-direction: column;
     align-items: center;
   }
 
   .checkout-page_column_left,
   .checkout-page_column_right {
-    /* Full width and no extra space around for the flex items */
     width: 100%;
     margin: 0;
     padding: 0;
@@ -934,23 +928,20 @@ align-items: center;
   }
 
   .checkout-page_column_right p {
-    /* This text is first, so it doesn't need an order property */
-    font-size: 1.5em; /* Adjust the font size */
+    font-size: 1.5em;
   }
 
   .buy-button {
-    /* This button is second, so it doesn't need an order property either */
-    width: calc(100% - 20px); /* Full width minus padding */
-    padding: 10px; /* Add more padding for a larger tap area */
-    margin-top: 10px; /* Add some space above the button */
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
   }
 
   .checkout-page_column_left img {
-    /* The image is third, so we ensure it comes last with the order property */
-    margin: 0 auto; /* Center the image */
-    max-width: 100%; /* Ensure the image is not larger than the screen */
-    height: auto; /* Maintain aspect ratio */
-    order: 3; /* Makes sure the image comes last */
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    order: 3;
   }
 
 /*search button responsive to mobile screen*/
@@ -1006,6 +997,65 @@ align-items: center;
 
 }
 
+/*About us*/
+
+.about-us_top nav ul {
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.about-us_top nav ul li {
+  justify-content: center;
+}
+
+.about-us_info,
+.contact_form {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.about-us_info h1,
+.contact_form h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.about-us_info p {
+  font-size: .9em;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  box-sizing: border-box; /* Make sure padding and border are included in the width */
+}
+
+.buy-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2em; /* Adjust the font size if necessary */
+  margin: 10px 0;
+}
+
+.form-wrapper {
+  margin: 0;
+}
+
+.form-wrapper > * {
+  width: 100%;
+}
+
+/* Adjust the footer if necessary */
+footer {
+  padding: 10px;
+  text-align: center;
+  font-size: .9em;
+}
 
 /*desktop styles*/
 

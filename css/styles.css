@@ -914,7 +914,12 @@ align-items: center;
     margin: 10px 0;
 }
 
+/*Checkout success*/
 
+.checkout-page_column_left,
+.checkout-page_column_right {
+  align-items: flex-start;
+}
 /*search button responsive to mobile screen*/
   .search {
       --search-max-width: 167px;

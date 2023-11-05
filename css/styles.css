@@ -430,15 +430,12 @@ header {
 /*Contact us page*/ 
 
 .about-us_top nav,
-ul,
 li {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  gap: 20px;
-  margin: 10px;
+  align-items: flex-start;
+  justify-content: space-around;
 }
-
 .about-us_info {
   width: 60%; 
   margin: 0 auto;
@@ -451,7 +448,7 @@ li {
 }
 
 .about-us_info p {
-  font-size: 1em;
+  font-size: 2em;
   line-height: 1.5;
   margin-bottom: 20px;
 }

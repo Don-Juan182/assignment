@@ -846,73 +846,63 @@ align-items: center;
 /*Checkout page*/
 
 .checkout-page_top_numbers,
-.checkout-page_top_phase {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    max-width: 90vw;
-}
-
-.checkout-page_top_numbers h1,
-.checkout-page_top_phase h2 {
-    font-size: 1rem;
-    width: 35px;
-    height: 25px;
-    line-height: 25px;
-    margin: 0 5px;
-    text-align: center;
-}
-.checkout-page_top_numbers h1 {
-    border-radius: 30%;
-}
-.checkout-page_top_phase {
-    margin-top: 2px;
-}
-
-.checkout-page_left img {
-    max-width: 150px;
-    height: 150px;
-}
-
-.details_right_title p {
-  font-size: 2em;
-}
-.details_right_title h3 {
-    display: none;
+  .checkout-page_top_phase {
+      /* Updated flex-direction and justify-content for better spacing on small screens */
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 90vw;
+      margin: 0 auto; /* Centering within the viewport and removing excess margin */
+      padding: 10px 0; /* Adjust padding to create space within the container */
   }
 
-  .details_right_title,
+  .checkout-page_top_numbers h1,
+  .checkout-page_top_phase h2 {
+      /* Adjust font-size, width, and height for a compact look on small screens */
+      font-size: 0.8rem; /* Reduce the font size */
+      width: auto; /* Auto width to allow content to dictate size */
+      height: auto; /* Auto height to match the content size */
+      line-height: normal; /* Use normal line height */
+      margin: 5px 2px; /* Reduce horizontal margins */
+  }
+
+  .checkout-page_top_numbers h1 {
+      border-radius: 50%; /* Make the border fully rounded */
+  }
+
+  .checkout-page_top_phase {
+      /* Eliminate margin-top to tighten up spacing */
+      margin-top: 0;
+  }
+
   .checkout-page_left img {
-    order: 1;
-    flex-direction: row;
-    align-items: center;
-    justify-content: start;
-  }  
+      /* Adjust image size for small screens */
+      max-width: 100px; /* Reduce max-width */
+      height: auto; /* Adjust height automatically */
+  }
 
-.details_right h4 {
-    text-align: start;
-    margin: 0;
-    width: 70vw;
-}
+  .details_right_title p {
+      font-size: 1.5em; /* Adjust font size down from 2em */
+  }
 
-.details_right {
-    order: 2;
-    margin-top: 20px;
-    width: 70vw;
-}
+  /* Assuming .details_right_title and .details_right adjustments here as necessary */
 
-/* Button adjustments */
-.details_right a button {
-    width: 80%;
-    margin: 10px 0;
-}
+  .details_right h4 {
+      /* Make sure the width does not exceed the viewport */
+      width: auto; /* Adjust width to auto */
+  }
 
+  .details_right {
+      /* Adjust width and margin-top for the .details_right container */
+      width: auto; /* Adjust width to auto */
+      margin-top: 10px; /* Reduce margin-top */
+  }
 
-/* Button adjustments */
-.details_right a button {
-    width: 80%; 
-    margin: 10px 0;
-}
+  /* Button adjustments */
+  .details_right a button {
+      width: 100%; /* Button width is 100% to fill the container */
+      margin: 10px 0;
+  }
 
 /*Checkout success*/
 

@@ -806,7 +806,8 @@ align-items: center;
       width: 100%;
       margin-top: 20px;
     }
-    .product-description_button .buy-button {
+    .product-description_button,
+    .buy-button {
       padding: 15px 30px;
       font-size: 1.5rem;
       width: 80%;
@@ -815,7 +816,6 @@ align-items: center;
     }
   
     .product-description_text {
-      order: 2;
       width: 100%;
       margin-top: 20px;
     }
@@ -823,6 +823,7 @@ align-items: center;
     .product-description-text {
       order: 4;
       padding: 0 10px;
+      align-items: start;
     }
   
     .gameplay h2 {

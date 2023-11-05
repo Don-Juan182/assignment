@@ -877,11 +877,10 @@ align-items: center;
 .details_right_title h3 {
     display: none;
   }
-.details_right_title,
-.checkout-page_left img {
-    flex-direction: row;
-    align-items: center;
-    justify-content: start;
+
+.details_right_title, 
+.details_right {
+  display: block;
 }
 
 .details_right h4 {

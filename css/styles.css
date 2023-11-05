@@ -844,24 +844,20 @@ align-items: center;
     }  
 
 /*Checkout page*/
-
-  .checkout-page_top_numbers,
-  .checkout-page_top_phase {
+  .checkout-page_top_numbers, 
+  .checkout-page_top_phase,
+  .shopping_cart {
     flex-direction: row;
-    justify-content: space-evenly; /* Adjust spacing to distribute items evenly */
-    align-items: start;
-    max-width: 40%; /* Ensuring it doesn't exceed the viewport width */
-    left: 10px;
-    padding: 0 0px; /* Add padding on the sides */
-     /* Include padding in width calculation */
+    align-items: center;
   }
 
-  .checkout-page_top_numbers h1,
-  .checkout-page_top_phase h2 {
-    font-size: 0.8rem; /* Decrease the font size */
-    margin: 0 2px; /* Reduce margin for spacing */
-    /* You may adjust width and height if needed, or keep them as is */
-  }
+  .checkout-page_top_numbers h1, 
+  .checkout-page_top_phase h2, 
+  .shopping_cart h2 {
+    font-size: 1em; /* Adjust the font size */
+    min-width: 0; /* Remove the min-width to allow for natural resizing */
+    margin: 5px; /* Adjust margin for smaller spacing */
+  
 
   .checkout-page_top_numbers h1 {
     border-radius: 40%; /* Fully rounded borders for the numbers */

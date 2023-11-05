@@ -806,8 +806,7 @@ align-items: center;
       width: 100%;
       margin-top: 20px;
     }
-    .product-description_button,
-    .buy-button {
+    .product-description_button .buy-button {
       padding: 15px 30px;
       font-size: 1.5rem;
       width: 80%;

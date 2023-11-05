@@ -845,63 +845,57 @@ align-items: center;
 
 /*Checkout page*/
 
-.checkout-page_top_numbers,
+  .checkout-page_top_numbers,
   .checkout-page_top_phase {
-      /* Updated flex-direction and justify-content for better spacing on small screens */
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      max-width: 90vw;
-      margin: 0 auto; /* Centering within the viewport and removing excess margin */
-      padding: 10px 0; /* Adjust padding to create space within the container */
+    /* Keep them in a row but ensure they don't exceed the viewport width */
+    flex-direction: row;
+    justify-content: space-between; /* Adjust spacing to distribute items evenly */
+    align-items: center;
+    max-width: 100%; /* Ensuring it doesn't exceed the viewport width */
+    padding: 0 10px; /* Add padding on the sides */
+    box-sizing: border-box; /* Include padding in width calculation */
   }
 
   .checkout-page_top_numbers h1,
   .checkout-page_top_phase h2 {
-      /* Adjust font-size, width, and height for a compact look on small screens */
-      font-size: 0.8rem; /* Reduce the font size */
-      width: auto; /* Auto width to allow content to dictate size */
-      height: auto; /* Auto height to match the content size */
-      line-height: normal; /* Use normal line height */
-      margin: 5px 2px; /* Reduce horizontal margins */
+    /* Adjust the font size to fit on smaller screens */
+    font-size: 0.8rem; /* Decrease the font size */
+    margin: 0 5px; /* Reduce margin for spacing */
+    /* You may adjust width and height if needed, or keep them as is */
   }
 
   .checkout-page_top_numbers h1 {
-      border-radius: 50%; /* Make the border fully rounded */
+    border-radius: 50%; /* Fully rounded borders for the numbers */
   }
 
   .checkout-page_top_phase {
-      /* Eliminate margin-top to tighten up spacing */
-      margin-top: 0;
+    margin-top: 0; /* Remove extra margin-top */
   }
 
+  /* Adjust image sizes as necessary */
   .checkout-page_left img {
-      /* Adjust image size for small screens */
-      max-width: 100px; /* Reduce max-width */
-      height: auto; /* Adjust height automatically */
+    max-width: 100px; /* Smaller max-width for the images */
+    height: auto; /* Keep height auto for aspect ratio */
   }
 
-  .details_right_title p {
-      font-size: 1.5em; /* Adjust font size down from 2em */
-  }
-
-  /* Assuming .details_right_title and .details_right adjustments here as necessary */
+  /* Other styles (like .details_right_title p) can be adjusted as you see fit */
 
   .details_right h4 {
-      /* Make sure the width does not exceed the viewport */
-      width: auto; /* Adjust width to auto */
+    text-align: left; /* Align text to the start */
+    margin: 0;
+    width: auto; /* Width auto for natural sizing */
   }
 
   .details_right {
-      /* Adjust width and margin-top for the .details_right container */
-      width: auto; /* Adjust width to auto */
-      margin-top: 10px; /* Reduce margin-top */
+    order: 2;
+    margin-top: 20px;
+    width: auto; /* Auto width to prevent overflow */
   }
 
-  /* Button adjustments */
+  /* Button adjustment for full width */
   .details_right a button {
-      width: 100%; /* Button width is 100% to fill the container */
-      margin: 10px 0;
+    width: 100%; /* Full width for the button */
+    margin: 10px 0;
   }
 
 /*Checkout success*/

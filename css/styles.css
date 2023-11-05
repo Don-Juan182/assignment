@@ -858,14 +858,13 @@ align-items: center;
 
   .checkout-page_top_numbers h1,
   .checkout-page_top_phase h2 {
-    /* Adjust the font size to fit on smaller screens */
     font-size: 0.8rem; /* Decrease the font size */
     margin: 0 5px; /* Reduce margin for spacing */
     /* You may adjust width and height if needed, or keep them as is */
   }
 
   .checkout-page_top_numbers h1 {
-    border-radius: 50%; /* Fully rounded borders for the numbers */
+    border-radius: 40%; /* Fully rounded borders for the numbers */
   }
 
   .checkout-page_top_phase {
@@ -878,8 +877,9 @@ align-items: center;
     height: auto; /* Keep height auto for aspect ratio */
   }
 
-  /* Other styles (like .details_right_title p) can be adjusted as you see fit */
-
+  .details_right_title h3 {
+    display: none;
+  }
   .details_right h4 {
     text-align: left; /* Align text to the start */
     margin: 0;

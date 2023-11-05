@@ -823,7 +823,7 @@ align-items: center;
     .product-description-text {
       order: 4;
       padding: 0 10px;
-      margin-left: 0 auto;
+      margin-left: 0;
       margin-right: 90%;
     }
   

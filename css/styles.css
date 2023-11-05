@@ -862,7 +862,9 @@ align-items: center;
     margin: 0 5px;
     text-align: center;
 }
-
+.checkout-page_top_numbers h1 {
+    border-radius: 60%;
+}
 .checkout-page_top_phase {
     margin-top: 2px;
 }
@@ -874,14 +876,12 @@ align-items: center;
 
 .details_right_title h3 {
     display: none;
-
+  }
 .details_right_title,
 .checkout-page_left img {
     flex-direction: row;
     align-items: center;
     justify-content: start;
-    margin-bottom: 140px;
-
 }
 
 .details_right h4 {

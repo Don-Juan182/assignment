@@ -876,6 +876,9 @@ align-items: center;
     height: 150px;
 }
 
+.details_right_title p {
+  font-size: 2em;
+}
 .details_right_title h3 {
     display: none;
   }

@@ -847,19 +847,18 @@ align-items: center;
 
   .checkout-page_top_numbers,
   .checkout-page_top_phase {
-    /* Keep them in a row but ensure they don't exceed the viewport width */
     flex-direction: row;
-    justify-content: space-between; /* Adjust spacing to distribute items evenly */
+    justify-content: space-evenly; /* Adjust spacing to distribute items evenly */
     align-items: center;
-    max-width: 100%; /* Ensuring it doesn't exceed the viewport width */
-    padding: 0 10px; /* Add padding on the sides */
+    max-width: 80%; /* Ensuring it doesn't exceed the viewport width */
+    padding: 0 2px; /* Add padding on the sides */
     box-sizing: border-box; /* Include padding in width calculation */
   }
 
   .checkout-page_top_numbers h1,
   .checkout-page_top_phase h2 {
     font-size: 0.8rem; /* Decrease the font size */
-    margin: 0 5px; /* Reduce margin for spacing */
+    margin: 0 2px; /* Reduce margin for spacing */
     /* You may adjust width and height if needed, or keep them as is */
   }
 

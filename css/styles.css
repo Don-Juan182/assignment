@@ -931,32 +931,40 @@ align-items: center;
   }
 
   .checkout-page_center {
-    flex-direction: column; /* Stack the left and right columns vertically */
+    /* Ensure that the direction is column for mobile to stack items */
+    flex-direction: column;
+    align-items: center;
   }
 
-  .checkout-page_column_left img {
-    margin: 0 auto; /* Center the image and remove the left margin */
-    max-width: 100%; /* Ensure the image is not larger than the screen */
-    height: auto; /* Keep the image's aspect ratio */
-    order: 2;
-  }
-
+  .checkout-page_column_left,
   .checkout-page_column_right {
-    flex: none; /* Remove the flex-grow property */
-    width: 100%; /* Set to full width */
-    padding: 10px; /* Add padding to prevent content touching the edges */
+    /* Full width and no extra space around for the flex items */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .checkout-page_column_right p {
-    font-size: 1.5em; /* Adjust font size for smaller screens */
-    order: 1;
+    /* This text is first, so it doesn't need an order property */
+    font-size: 1.5em; /* Adjust the font size */
   }
 
-  /* If .buy-button is not styled for mobile, add styles for it */
   .buy-button {
+    /* This button is second, so it doesn't need an order property either */
     width: calc(100% - 20px); /* Full width minus padding */
     padding: 10px; /* Add more padding for a larger tap area */
     margin-top: 10px; /* Add some space above the button */
+  }
+
+  .checkout-page_column_left img {
+    /* The image is third, so we ensure it comes last with the order property */
+    margin: 0 auto; /* Center the image */
+    max-width: 100%; /* Ensure the image is not larger than the screen */
+    height: auto; /* Maintain aspect ratio */
+    order: 3; /* Makes sure the image comes last */
   }
 
 /*search button responsive to mobile screen*/

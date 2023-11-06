@@ -428,13 +428,15 @@ header {
 }
 
 /*Contact us page*/ 
-
-.about-us_top nav,
-li {
+nav {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 15px;
+}
+nav li {
+  display: inline-block;
+  max-width: 160px;
+
 }
 .about-us_info {
   width: 60%; 

@@ -822,6 +822,20 @@ textarea {
 
   /*More games page*/
 
+  .bottom {
+    width: 100vw;
+  }
+
+  .bottom_titles {
+    font-size: 1em;
+  }
+
+  .buy-button {
+    width: 100%;
+    font-size: 0.8em;
+    align-items: center;
+  }
+
   .more-games {
     display: flex;
     flex-direction: column;

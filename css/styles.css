@@ -148,6 +148,7 @@ h2 {
 .footer {
   height: 50px;
   align-content: center;
+  width: 100vw;
 }
 
 /*More games/list of games page*/
@@ -821,20 +822,6 @@ textarea {
   }
 
   /*More games page*/
-
-  .bottom {
-    width: 100vw;
-  }
-
-  .bottom_titles {
-    font-size: 1em;
-  }
-
-  .buy-button {
-    width: 100%;
-    font-size: 0.8em;
-    align-items: center;
-  }
 
   .more-games {
     display: flex;

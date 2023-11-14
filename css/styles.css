@@ -737,7 +737,7 @@ textarea {
 }
 
 
-/*mobile styles*/
+/*mobile styles up to 480px*/
 
 @media only screen and (max-width: 480px){
 .body {
@@ -801,47 +801,18 @@ align-items: center;
 
 /*Games page*/
 
-    .product-description, .gameplay {
-      text-align: start;
-    }
-  
-    .product-description_info {
-      order: 1;
-      display: flex;
-      flex-direction: column;
-      align-items: start;
-    }
-  
-    .product-description_info img {
-      max-width: 100%;
-      height: auto;
-    }
-  
+    /*Games page*/
+    
+    .product-description_info img,
     .product-description_button {
-      order: 3;
-      width: 100%;
-      margin-top: 20px;
-    }
-    .product-description_button 
-    .buy-button {
-      padding: 15px 30px;
-      font-size: 1.5rem;
-      width: 90%;
-      max-width: 300px;
-      margin: 0 auto;
+    display: block;
+    align-items: center;
+    margin-top: 20px;
     }
   
-    .product-description_text {
-      order: 2;
-      width: 100%;
-      margin-top: 20px;
-    }
-  
-    .product-description-text {
-      order: 4;
-      padding: 0 10px;
-      margin-left: auto;
-      margin-right: auto;
+    .product-description_text p {
+      width: 350px;
+      align-items: center;
     }
   
     .gameplay h2 {
@@ -850,13 +821,15 @@ align-items: center;
       margin-bottom: 20px;
     }
   
-    .gameplay .screenshot-container {
+    .gameplay 
+    .screenshot-container {
       display: flex;
       flex-direction: column;
       align-items: start;
     }
   
-    .gameplay .screenshot img {
+    .gameplay 
+    .screenshot img {
       width: 100%; 
       height: auto;
       margin-bottom: 20px;

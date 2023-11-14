@@ -1094,10 +1094,10 @@ footer {
   }
   
   .hot_summer_deals__image {
-    max-width: 300px;
+    max-width: 400px;
     border-radius: 5%;
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
   }
   
   .black_game__image,
@@ -1107,7 +1107,7 @@ footer {
   .rtr_game__image,
   .racing_game__image,
   .boxer_game__image {
-    width: 170px;
+    width: 250px;
   }
   .gameplay img {
     width: 150px;
@@ -1204,32 +1204,32 @@ footer {
   /*Checkout page*/
   
     .checkout-page_top_numbers,
-    .checkout-page_top_phase {
+    .checkout-page_top_phase,
+    .shopping_cart {
       flex-direction: row;
-      justify-content: space-evenly;
-      align-items: start;
-      max-width: 40%;
-      left: 10px;
-      padding: 0 0px;
+      align-items: center;
     }
   
     .checkout-page_top_numbers h1,
-    .checkout-page_top_phase h2 {
-      font-size: 0.8rem;
-      margin: 0 2px;
+    .checkout-page_top_phase h2,
+    .shopping_cart h2 {
+      font-size: 1rem;
+      margin: 5px;
     }
   
     .checkout-page_top_numbers h1 {
-      border-radius: 40%;
-    }
-  
-    .checkout-page_top_phase {
-      margin-top: 0;
+      border-radius: 50%;
     }
   
     .checkout-page_left img {
-      max-width: 100px;
+      max-width: 250px;
       height: auto;
+      padding: 20px;
+      margin-left: 20px;
+    }
+
+    .details_right_title p {
+      font-size: 2.5em;
     }
   
     .details_right_title h3 {
